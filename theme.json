@@ -111,9 +111,9 @@
 			],
 			"gradients": [
 				{
-					"name": "Primary to tertiary",
+					"name": "Primary to accent",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--tertiary) 100%)"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--accent) 100%)"
 				},
 				{
 					"name": "Secondary to base",
@@ -153,32 +153,32 @@
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#FFFFFF",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#0a0a0a",
+					"color": "#020617",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#6d28d9",
+					"color": "#334155",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#8b5cf6",
+					"color": "#64748b",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#c4b5fd",
+					"color": "#cbd5e1",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#ede9fe",
+					"color": "#f1f5f9",
 					"name": "Quaternary",
 					"slug": "quaternary"
 				}
@@ -232,17 +232,26 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Inter",
+							"fontDisplay": "block",
+							"fontFamily": "Albert Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "300 900",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Albert Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
+								"file:./assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Inter\", sans-serif",
-					"name": "Inter",
+					"fontFamily": "\"Albert Sans\", sans-serif",
+					"name": "Albert Sans",
 					"slug": "default"
 				},
 				{
@@ -255,41 +264,36 @@
 			"fontSizes": [
 				{
 					"fluid": false,
-					"name": "Small",
-					"size": "0.9rem",
+					"size": "1rem",
 					"slug": "small"
 				},
 				{
 					"fluid": false,
-					"name": "Medium",
-					"size": "1.05rem",
+					"size": "1.125rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "1.39rem",
-						"max": "1.85rem"
+						"min": "1.25rem",
+						"max": "1.5rem"
 					},
-					"name": "Large",
-					"size": "1.85rem",
+					"size": "1.5rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"min": "1.85rem",
-						"max": "2.5rem"
+						"min": "1.875rem",
+						"max": "2.25rem"
 					},
-					"name": "Extra Large",
-					"size": "2.5rem",
+					"size": "2.25rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"min": "2.5rem",
-						"max": "3.27rem"
+						"min": "2.25rem",
+						"max": "3rem"
 					},
-					"name": "Extra Extra Large",
-					"size": "3.27rem",
+					"size": "3rem",
 					"slug": "xx-large"
 				}
 			],
@@ -309,10 +313,10 @@
 					"outline": {
 						"spacing": {
 							"padding": {
-								"bottom": "calc(0.6rem - 1px)",
-								"left": "calc(1rem - 1px)",
-								"right": "calc(1rem - 1px)",
-								"top": "calc(0.6rem - 1px)"
+								"bottom": "calc(0.8rem - 1px)",
+								"left": "calc(1.6rem - 1px)",
+								"right": "calc(1.6rem - 1px)",
+								"top": "calc(0.8rem - 1px)"
 							}
 						},
 						"border": {
@@ -797,7 +801,7 @@
 					}
 				},
 				"border": {
-					"radius": ".33rem",
+					"radius": "4px",
 					"color": "var(--wp--preset--color--contrast)"
 				},
 				"color": {
@@ -806,10 +810,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"bottom": "0.6rem",
-						"left": "1rem",
-						"right": "1rem",
-						"top": "0.6rem"
+						"bottom": "0.8rem",
+						"left": "1.6rem",
+						"right": "1.6rem",
+						"top": "0.8rem"
 					}
 				},
 				"typography": {
@@ -824,20 +828,20 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--default)",
-					"fontSize": "0.8rem"
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "1.15",
-					"fontWeight": "700"
+					"fontWeight": "600"
 				}
 			},
 			"h2": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-large)",
-					"fontWeight": "700"
+					"fontWeight": "600"
 				}
 			},
 			"h3": {
@@ -848,20 +852,20 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem)",
-					"fontWeight": "500"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "600"
 				}
 			},
 			"h5": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"fontWeight": "700"
+					"fontWeight": "600"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontWeight": "700"
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "600"
 				}
 			},
 			"heading": {
