@@ -1,14 +1,15 @@
 <?php
 /**
- * Title: 404 page
- * Slug: henry/404
+ * Title: 404
+ * Slug: twentytwentyfour/hidden-404
  * Inserter: no
  */
 ?>
+
 <!-- wp:heading {"level":1} -->
-	<h1><?php echo esc_html__( 'Not found, error 404', 'henry' ); ?></h1>
+<h1 class="wp-block-heading" id="page-not-found"><?php echo esc_html_x( 'Page Not Found', 'Heading for a webpage that is not found', 'twentytwentyfour' ); ?></h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-	<p><?php echo esc_html__( 'Oops, the page you are looking for does not exist or is no longer available. Please use the search form below to find your way.', 'henry' ); ?></p>
+<p><?php echo esc_html_x( 'The page you are looking for does not exist, or it has been moved. Please try searching using the form below.', 'Message to convey that a webpage could not be found', 'twentytwentyfour' ); ?></p>
 <!-- /wp:paragraph -->
-<!-- wp:search {"width":80,"widthUnit":"%","showLabel":false,"buttonText":"Search"} /-->
+<!-- wp:pattern {"slug":"twentytwentyfour/hidden-search"} /-->

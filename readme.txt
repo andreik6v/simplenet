@@ -1,121 +1,27 @@
-=== Henry ===
-Contributors: smlaci
+=== Twenty Twenty-Four ===
+Contributors: wordpressdotorg
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.0
-Stable tag: 0.9.8
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Henry is a WordPress block theme that empowers you to create faster WordPress websites with native blocks.
+Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
 
-= 0.9.8 =
+== Changelog ==
 
-New patterns, templates, style updates.
+= 1.0 =
+* Released: November 7, 2023
 
-= 0.9.7 =
-
-New patterns, templates, js, etc.
-
-= 0.9.6 =
-
-HTML semantic update.
-
-= 0.9.5 =
-
-Style changes, add patterns.
-
-= 0.9.4 =
-
-Minor adjustments, add patterns.
-
-= 0.9.3 =
-
-Update Henry urls, add patterns.
-
-= 0.9.2 =
-
-Oops, add back 72px font size.
-
-= 0.9.1 =
-
-Update new colors, patterns.
-
-= 0.9.0 =
-
-Set colors, prep for child themes.
-
-= 0.8.2 =
-
-Revert colors, remove style variations.
-
-= 0.8.1 =
-
-Fix Query pattern posts per page.
-
-= 0.8.0 =
-
-Major changes, add style variations, patterns.
-
-= 0.7.2 =
-
-Style sheet, patterns, theme.json optimization.
-
-= 0.7.1 =
-
-Move styles to theme.json, update theme links.
-
-= 0.7.0 =
-
-Bump for WordPress 6.2.
-
-= 0.6.6 =
-
-Minor style change, remove styles.
-
-= 0.6.5 =
-
-Reorg comments, remove unnecessary styles.
-
-= 0.6.4 =
-
-Add fluid spacing and neutral color.
-
-= 0.6.3 =
-
-Create Query pattern, consolidate templates.
-Minor style enhancements.
-
-= 0.6.2 =
-
-Add index.php to fix .org preview.
-
-= 0.6.1 =
-
-Update font slug in theme.json.
-
-= 0.6.0 =
-
-Add fluid spacing, template updates.
-
-= 0.5.2 =
-
-Bump version, add back layout code.
-
-= 0.5.1 =
-
-Temporarily revert code.
-
-= 0.5.0 =
-
-Initial public release.
+https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.0
 
 == Copyright ==
 
-Henry WordPress Theme, (C) 2023 Andrei Chira.
-Henry is distributed under the terms of the GNU GPL.
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
+Twenty Twenty-Four is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -126,3 +32,19 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+=== Images ===
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+
+museum.webp - https://www.rawpixel.com/image/3297419/free-photo-image-interior-hallway-architecture
+tourist-and-building.webp - https://www.rawpixel.com/image/5928004/photo-image-public-domain-hand-person
+building-exterior.webp - https://www.rawpixel.com/image/430335/free-photo-image-architecture-building-roof
+windows.webp - https://www.rawpixel.com/image/3286615/free-photo-image-texture-architecture-building
+abstract-geometric-art.webp - https://www.rawpixel.com/image/3283970/free-photo-image-pattern-artwork-abstract
+angular-roof.webp - https://www.rawpixel.com/image/3289063/free-photo-image-architectural-detail-architecture
+art-gallery.webp - https://www.rawpixel.com/image/3286187/free-photo-image-person-stairs-architecture
+green-staircase.webp - https://www.rawpixel.com/image/430558/free-photo-image-abstract-architecture-art-public-domain
+hotel-facade.webp - https://www.rawpixel.com/image/3286725/free-photo-image-black-and-white-background-photos
+
+License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
+icon-message.webp
