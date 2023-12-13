@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Portfolio hero
- * Slug: twentytwentyfour/hidden-portfolio-hero
+ * Slug: henry/hidden-portfolio-hero
  * Inserter: no
  */
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Business home
- * Slug: twentytwentyfour/page-home-business
+ * Slug: henry/page-home-business
  * Categories: page
  * Keywords: starter
  * Block Types: core/post-content
@@ -10,9 +10,9 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"twentytwentyfour/banner-hero"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/text-feature-grid-3-col"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/text-alternating-images"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/testimonial-centered"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/posts-list"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/cta-subscribe-centered"} /-->
+<!-- wp:pattern {"slug":"henry/banner-hero"} /-->
+<!-- wp:pattern {"slug":"henry/text-feature-grid-3-col"} /-->
+<!-- wp:pattern {"slug":"henry/text-alternating-images"} /-->
+<!-- wp:pattern {"slug":"henry/testimonial-centered"} /-->
+<!-- wp:pattern {"slug":"henry/posts-list"} /-->
+<!-- wp:pattern {"slug":"henry/cta-subscribe-centered"} /-->

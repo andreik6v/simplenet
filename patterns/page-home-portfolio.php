@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Portfolio home with post featured images
- * Slug: twentytwentyfour/page-home-portfolio
+ * Slug: henry/page-home-portfolio
  * Categories: page
  * Keywords: starter
  * Block Types: core/post-content
@@ -10,5 +10,5 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"twentytwentyfour/hidden-portfolio-hero"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfour/posts-images-only-offset-4-col"} /-->
+<!-- wp:pattern {"slug":"henry/hidden-portfolio-hero"} /-->
+<!-- wp:pattern {"slug":"henry/posts-images-only-offset-4-col"} /-->

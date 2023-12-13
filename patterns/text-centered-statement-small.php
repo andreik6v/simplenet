@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Centered statement, small
- * Slug: twentytwentyfour/text-centered-statement-small
+ * Slug: henry/text-centered-statement-small
  * Categories: text, about
  * Keywords: mission, introduction
  * Viewport width: 1200
@@ -16,10 +16,10 @@
 		<em>
 		<?php
 		/* Translators: About link placeholder */
-			$about_link = '<a href="#" rel="nofollow">' . esc_html__( 'Money Studies', 'twentytwentyfour' ) . '</a>';
+			$about_link = '<a href="#" rel="nofollow">' . esc_html__( 'Money Studies', 'henry' ) . '</a>';
 			echo sprintf(
 				/* Translators: About text placeholder */
-				esc_html__( 'I write about finance, management and economy, my book “%1$s” is out now.', 'twentytwentyfour' ),
+				esc_html__( 'I write about finance, management and economy, my book “%1$s” is out now.', 'henry' ),
 				$about_link
 			);
 			?>
