@@ -4,18 +4,6 @@
 	"description":  "Fuchsia-based palette with four shades",
 	"settings": {
 		"color": {
-			"duotone": [
-				{
-					"name": "Black and White",
-					"slug": "black-and-white",
-					"colors": [ "#000000", "#ffffff" ]
-				},
-				{
-					"name": "Primary and White",
-					"slug": "primary-and-white",
-					"colors": [ "#a21caf", "#ffffff" ]
-				}
-			],
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -46,6 +34,11 @@
 					"color": "#fae8ff",
 					"name": "Quaternary",
 					"slug": "quaternary"
+				},
+				{
+					"color": "#0000ff",
+					"name": "Accent",
+					"slug": "accent"
 				}
 			]
 		}

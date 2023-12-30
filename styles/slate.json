@@ -4,18 +4,6 @@
 	"description":  "Slate-based palette with four shades",
 	"settings": {
 		"color": {
-			"duotone": [
-				{
-					"name": "Black and White",
-					"slug": "black-and-white",
-					"colors": [ "#000000", "#ffffff" ]
-				},
-				{
-					"name": "Primary and White",
-					"slug": "primary-and-white",
-					"colors": [ "#334155", "#ffffff" ]
-				}
-			],
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -46,6 +34,11 @@
 					"color": "#f1f5f9",
 					"name": "Quaternary",
 					"slug": "quaternary"
+				},
+				{
+					"color": "#0000ff",
+					"name": "Accent",
+					"slug": "accent"
 				}
 			]
 		}

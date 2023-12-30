@@ -13,56 +13,132 @@
 			"defaultGradients": false,
 			"duotone": [
 				{
-					"colors": [ "#000000", "#ffffff" ],
-					"name": "Grayscale",
-					"slug": "graysclae"
+					"name": "Blue",
+					"slug": "blue",
+					"colors": [
+						"#462CFF",
+						"#ECE8FF"
+					]
 				},
 				{
-					"colors": [ "#6d28d9", "#ffffff" ],
-					"name": "Primary and White",
-					"slug": "primary-and-white"
+					"name": "Pink",
+					"slug": "Pink",
+					"colors": [
+						"#F22AAA",
+						"#FFDBF0"
+					]
+				},
+				{
+					"name": "Green",
+					"slug": "green",
+					"colors": [
+						"#196A64",
+						"#E0FFFD"
+					]
+				},
+				{
+					"name": "Yellow",
+					"slug": "yellow",
+					"colors": [
+						"#4B420D",
+						"#FFE465"
+					]
+				},
+				{
+					"name": "Red",
+					"slug": "red",
+					"colors": [
+						"#33120B",
+						"#FF756B"
+					]
+				},
+				{
+					"name": "Teal",
+					"slug": "teal",
+					"colors": [
+						"#233938",
+						"#67EBFF"
+					]
+				},
+				{
+					"name": "Orange",
+					"slug": "orange",
+					"colors": [
+						"#31210D",
+						"#FFA15B"
+					]
+				},
+				{
+					"name": "Punchy",
+					"slug": "punchy",
+					"colors": [
+						"#00007e",
+						"#6aff7e"
+					]
+				},
+				{
+					"name": "Blueberry",
+					"slug": "blueberry",
+					"colors": [
+						"#7f02d3",
+						"#00dbfe"
+					]
+				},
+				{
+					"name": "Lime",
+					"slug": "lime",
+					"colors": [
+						"#02794c",
+						"#fbf01a"
+					]
+				},
+				{
+					"name": "Sunset",
+					"slug": "sunset",
+					"colors": [
+						"#FF3253",
+						"#FFDC53"
+					]
+				},
+				{
+					"name": "Grayscale",
+					"slug": "grayscale",
+					"colors": [
+						"#000",
+						"#fff"
+					]
 				}
 			],
 			"gradients": [
 				{
-					"name": "Primary to base",
+					"name": "Accent to secondary",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, #6d28d9 0%, #ffffff 100%)"
-				},
-				{
-					"name": "Secondary to base",
-					"slug": "gradient-2",
-					"gradient": "linear-gradient(135deg, #8b5cf6 0%, #ffffff 100%)"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--secondary) 100%)"
 				},
 				{
 					"name": "Radial tertiary to secondary",
-					"slug": "gradient-3",
-					"gradient": "radial-gradient(#c4b5fd 0%, #8b5cf6 100%)"
+					"slug": "gradient-2",
+					"gradient": "radial-gradient(var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--secondary) 100%)"
 				},
 				{
 					"name": "Radial quaternary to tertiary",
-					"slug": "gradient-4",
-					"gradient": "radial-gradient(#ede9fe 0%, #c4b5fd 100%)"
-				},
-				{
-					"name": "Vertical secondary to base",
-					"slug": "gradient-5",
-					"gradient": "linear-gradient(to bottom, #8b5cf6 0%, #ffffff 100%)"
-				},
-				{
-					"name": "Vertical tertiary to base",
-					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #c4b5fd 0%, #ffffff 100%)"
+					"slug": "gradient-3",
+					"gradient": "radial-gradient(var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--tertiary) 100%)"
 				},
 				{
 					"name": "Vertical quaternary to base",
-					"slug": "gradient-7",
-					"gradient": "linear-gradient(to bottom, #ede9fe 0%, #ffffff 100%)"
+					"slug": "gradient-4",
+					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--base) 100%)"
 				},
 				{
-					"name": "Vertical tertiary to base",
-					"slug": "gradient-8",
-					"gradient": "linear-gradient(to bottom, #c4b5fd 50%, #ffffff 50%)"
+					"name": "Slanted horizontal",
+					"slug": "gradient-5",
+					"gradient": "linear-gradient(173deg, var(--wp--preset--color--quaternary) 50%, var(--wp--preset--color--base) 50%)"
+				},
+				{
+					"name": "Slanted vertical",
+					"slug": "gradient-6",
+					"gradient": "linear-gradient(75deg, var(--wp--preset--color--quaternary) 50%, var(--wp--preset--color--base) 50%)"
 				}
 			],
 			"palette": [
@@ -95,6 +171,11 @@
 					"color": "#ede9fe",
 					"name": "Quaternary",
 					"slug": "quaternary"
+				},
+				{
+					"color": "#0000ff",
+					"name": "Accent",
+					"slug": "accent"
 				}
 			]
 		},
