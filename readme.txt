@@ -48,3 +48,17 @@ hotel-facade.webp - https://www.rawpixel.com/image/3286725/free-photo-image-blac
 
 License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
 icon-message.webp
+
+DM Serif Text Font
+Copyright 2014 - 2017 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Copyright 2019 Google LLC. 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: http://www.colophon-foundry.org
+-- End of DM Serif Text Font credits --
+
+Space Grotesk Font
+Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL 
+License URL: https://scripts.sil.org/OFL 
+Source: https://fonts.floriankarsten.com
+-- End of Space Grotesk Font credits --
