@@ -144,7 +144,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "#0F172A",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -184,7 +184,7 @@
 					"slug": "base-2"
 				},
 				{
-					"color": "#141432",
+					"color": "#334155",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				}
