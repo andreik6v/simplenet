@@ -219,7 +219,14 @@
 					"slug": "60"
 				}
 			],
-			"units": ["%", "px", "em", "rem", "vh", "vw"]
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
 		},
 		"typography": {
 			"fluid": true,
@@ -232,7 +239,9 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
-							"src": [ "file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2" ]
+							"src": [
+								"file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2"
+							]
 						},
 						{
 							"fontDisplay": "block",
@@ -259,7 +268,6 @@
 					"name": "Monospace",
 					"slug": "monospace"
 				}
-				
 			],
 			"fontSizes": [
 				{
@@ -604,7 +612,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
 				},
-				"css":"& .wp-block-post-terms__prefix{color: var(--wp--preset--color--contrast);}"
+				"css": "& .wp-block-post-terms__prefix{color: var(--wp--preset--color--contrast);}"
 			},
 			"core/post-title": {
 				"elements": {
@@ -719,7 +727,9 @@
 				"elements": {
 					"button": {
 						"border": {
-							"radius": { "ref": "styles.elements.button.border.radius" }
+							"radius": {
+								"ref": "styles.elements.button.border.radius"
+							}
 						}
 					}
 				}
@@ -901,7 +911,7 @@
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "400",
-			"lineHeight": "1.55"
+			"lineHeight": "1.6"
 		}
 	},
 	"templateParts": [
@@ -929,22 +939,30 @@
 	"customTemplates": [
 		{
 			"name": "page-no-title",
-			"postTypes": ["page"],
+			"postTypes": [
+				"page"
+			],
 			"title": "Page No Title"
 		},
 		{
 			"name": "page-with-sidebar",
-			"postTypes": ["page"],
+			"postTypes": [
+				"page"
+			],
 			"title": "Page With Sidebar"
 		},
 		{
 			"name": "page-wide",
-			"postTypes": ["page"],
+			"postTypes": [
+				"page"
+			],
 			"title": "Page with wide Image"
 		},
 		{
 			"name": "single-with-sidebar",
-			"postTypes": ["post"],
+			"postTypes": [
+				"post"
+			],
 			"title": "Single with Sidebar"
 		}
 	]
