@@ -846,7 +846,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "1.15",
-					"fontWeight": "700"
+					"fontWeight": "600"
 				}
 			},
 			"h2": {
