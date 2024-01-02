@@ -246,17 +246,27 @@
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Inter",
+							"fontFamily": "Albert Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
+								"file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Albert Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"Inter\", sans-serif",
-					"name": "Inter",
+					"fontFamily": "\"Albert Sans\", sans-serif",
+					"name": "Albert Sans",
 					"slug": "default"
 				},
 				{
@@ -544,7 +554,8 @@
 					}
 				},
 				"typography": {
-					"fontWeight": "500"
+					"fontWeight": "500",
+					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
 			"core/post-author": {
