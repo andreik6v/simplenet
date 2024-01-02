@@ -107,14 +107,14 @@
 			],
 			"gradients": [
 				{
-					"name": "Accent to secondary",
+					"name": "Primary to accent",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--secondary) 100%)"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--accent) 100%)"
 				},
 				{
-					"name": "Radial tertiary to secondary",
+					"name": "Quaternary to accent two",
 					"slug": "gradient-2",
-					"gradient": "radial-gradient(var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--secondary) 100%)"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--quaternary) 0%, var(--wp--preset--color--accent-2) 100%)"
 				},
 				{
 					"name": "Radial quaternary to tertiary",
@@ -130,21 +130,16 @@
 					"name": "Slanted horizontal",
 					"slug": "gradient-5",
 					"gradient": "linear-gradient(173deg, var(--wp--preset--color--quaternary) 50%, var(--wp--preset--color--base) 50%)"
-				},
-				{
-					"name": "Slanted vertical",
-					"slug": "gradient-6",
-					"gradient": "linear-gradient(75deg, var(--wp--preset--color--quaternary) 50%, var(--wp--preset--color--base) 50%)"
 				}
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#fbfbfd",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#0F172A",
+					"color": "#0E1116",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -169,22 +164,22 @@
 					"slug": "quaternary"
 				},
 				{
-					"color": "#0000ff",
+					"color": "#3b82f6",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-					"color": "#A5B4FC",
+					"color": "#dbeafe",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#f8fafd",
+					"color": "#ffffff",
 					"name": "Base / Two",
 					"slug": "base-2"
 				},
 				{
-					"color": "#334155",
+					"color": "#313c4d",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				}
@@ -856,14 +851,12 @@
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
-					"lineHeight": "1.15",
-					"fontWeight": "600"
+					"lineHeight": "1.15"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)",
-					"fontWeight": "600"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"h3": {

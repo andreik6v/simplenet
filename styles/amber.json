@@ -6,12 +6,12 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#fbfbfd",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "#0E1116",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -36,9 +36,24 @@
 					"slug": "quaternary"
 				},
 				{
-					"color": "#0000ff",
+					"color": "#f43f5e",
 					"name": "Accent",
 					"slug": "accent"
+				},
+				{
+					"color": "#ffe4e6",
+					"name": "Accent / Two",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#313c4d",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
 				}
 			]
 		}
