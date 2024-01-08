@@ -1,0 +1,13 @@
+/* Separator
+--------------------------------------------- */
+
+hr.is-style-separator-dotted,
+.editor-styles-wrapper hr.is-style-separator-dotted {
+	width: 100% !important;
+	height: 1px !important;
+	border: none !important;
+	height: 1px !important;
+	background-color: none !important;
+	background: currentColor !important;
+	background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 5px) !important;
+}

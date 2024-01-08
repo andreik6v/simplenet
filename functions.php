@@ -1,224 +1,173 @@
 <?php
 /**
- * Henry functions and definitions
+ * This file adds functions to the Henry WordPress theme.
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package Henry
- * @since Henry 1.0
+ * @package henry
+ * @author  Andrei Chira
+ * @license GNU General Public License v2 or later
+ * @link    https://henrywp.com
  */
 
+namespace Henry;
 
+/**
+ * Set up theme defaults and register various WordPress features.
+ */
+function setup() {
+
+	// Enqueue editor styles and fonts.
+	add_editor_style( 'style.css' );
+
+	// Remove core block patterns.
+	remove_theme_support( 'core-block-patterns' );
+}
+add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 
 
 /**
- * Register block styles.
+ * Enqueue styles.
  */
+function enqueue_style_sheet() {
+	wp_enqueue_style( sanitize_title( __NAMESPACE__ ), get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+}
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 
-if ( ! function_exists( 'henry_block_styles' ) ) :
-	/**
-	 * Register custom block styles
-	 *
-	 * @since Henry 1.0
-	 * @return void
-	 */
-	function henry_block_styles() {
 
-		register_block_style(
-			'core/details',
-			array(
-				'name'         => 'arrow-icon-details',
-				'label'        => __( 'Arrow icon', 'henry' ),
-				/*
-				 * Styles for the custom Arrow icon style of the Details block
-				 */
-				'inline_style' => '
-				.is-style-arrow-icon-details {
-					padding-top: var(--wp--preset--spacing--10);
-					padding-bottom: var(--wp--preset--spacing--10);
-				}
+/**
+ * Add Dashicons for use with block styles.
+ */
+function enqueue_block_dashicons() {
+	wp_enqueue_style( 'dashicons' );
+}
+add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_dashicons' );
 
-				.is-style-arrow-icon-details summary {
-					list-style-type: "\2193\00a0\00a0\00a0";
-				}
 
-				.is-style-arrow-icon-details[open]>summary {
-					list-style-type: "\2192\00a0\00a0\00a0";
-				}',
-			)
-		);
-		register_block_style(
-			'core/post-terms',
-			array(
-				'name'         => 'pill',
-				'label'        => __( 'Pill', 'henry' ),
-				/*
-				 * Styles variation for post terms
-				 * https://github.com/WordPress/gutenberg/issues/24956
-				 */
-				'inline_style' => '
-				.is-style-pill a,
-				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
-					display: inline-block;
-					background-color: var(--wp--preset--color--base);
-					padding: 0.375rem 0.875rem;
-					border-radius: var(--wp--preset--spacing--20);
-				}
+/**
+ * Add block style variations.
+ */
+function register_block_styles() {
 
-				.is-style-pill a:hover {
-					background-color: var(--wp--preset--color--contrast);
-				}',
-			)
-		);
-		register_block_style(
-			'core/list',
-			array(
-				'name'         => 'checkmark-list',
-				'label'        => __( 'Checkmark', 'henry' ),
-				/*
-				 * Styles for the custom checkmark list block style
-				 * https://github.com/WordPress/gutenberg/issues/51480
-				 */
-				'inline_style' => '
-				ul.is-style-checkmark-list {
-					list-style-type: "\2713";
-				}
+	$block_styles = array(
+		'core/button'                    => array(
+			'secondary-button' => __( 'Secondary', 'henry' ),
+		),
+		'core/list'                      => array(
+			'list-check'        => __( 'Check', 'henry' ),
+			'list-check-circle' => __( 'Check Circle', 'henry' ),
+		),
+		'core/query-pagination-next'     => array(
+			'wp-block-button__link' => __( 'Button', 'henry' ),
+		),
+		'core/query-pagination-previous' => array(
+			'wp-block-button__link' => __( 'Button', 'henry' ),
+		),
+		'core/code'                      => array(
+			'dark-code' => __( 'Dark', 'henry' ),
+		),
+		'core/cover'                     => array(
+			'blur-image-less' => __( 'Blur Image Less', 'henry' ),
+			'blur-image-more' => __( 'Blur Image More', 'henry' ),
+			'rounded-cover'   => __( 'Rounded', 'henry' ),
+		),
+		'core/column'                    => array(
+			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
+		),
+		'core/group'                     => array(
+			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
+		),
+		'core/separator'                 => array(
+			'separator-dotted' => __( 'Dotted', 'henry' ),
+		),
+		'core/image'                     => array(
+			'rounded-full' => __( 'Rounded Full', 'henry' ),
+			'media-boxed'  => __( 'Boxed', 'henry' ),
+		),
+		'core/preformatted'              => array(
+			'preformatted-dark' => __( 'Dark Style', 'henry' ),
+		),
+		'core/post-terms'                => array(
+			'term-button' => __( 'Button Style', 'henry' ),
+		),
+		'core/video'                     => array(
+			'media-boxed' => __( 'Boxed', 'henry' ),
+		),
+	);
 
-				ul.is-style-checkmark-list li {
-					padding-inline-start: 1ch;
-				}',
-			)
-		);
-		register_block_style(
-			'core/navigation-link',
-			array(
-				'name'         => 'arrow-link',
-				'label'        => __( 'With arrow', 'henry' ),
-				/*
-				 * Styles for the custom arrow nav link block style
-				 */
-				'inline_style' => '
-				.is-style-arrow-link .wp-block-navigation-item__label:after {
-					content: "\2197";
-					padding-inline-start: 0.25rem;
-					vertical-align: middle;
-					text-decoration: none;
-					display: inline-block;
-				}',
-			)
-		);
-		register_block_style(
-			'core/image',
-			array(
-				'name'         => 'media-boxed',
-				'label'        => __( 'Boxed', 'henry' ),
-				/*
-				 * Styles for the custom boxed image block style
-				 */
-				'inline_style' => '
-				.is-style-media-boxed {
-					background-color: var(--wp--preset--color--quaternary);
-					padding: var(--wp--preset--spacing--40);
-					border-radius: 5px;
-				}'
-			)
-		);
-		register_block_style(
-			'core/image',
-			array(
-				'name'         => 'rounded-full',
-				'label'        => __( 'Rounded full', 'henry' ),
-				/*
-				 * Styles for the custom fully rounded image block style
-				 */
-				'inline_style' => '
-				.wp-block-image.is-style-rounded-full img,
-				.wp-block-image .is-style-rounded-full img {
-					border-radius: 999px;
-				}'
-			)
-		);
-		register_block_style(
-			'core/separator',
-			array(
-				'name'         => 'separator-dotted',
-				'label'        => __( 'Dotted', 'henry' ),
-				/*
-				 * Styles for the custom dotted separator block style
-				 */
-				'inline_style' => '
-				hr.is-style-separator-dotted, .editor-styles-wrapper hr.is-style-separator-dotted {
-					width: 100% !important;
-					height: 1px !important;
-					border: none !important;
-					height: 1px !important;
-					background-color: none !important;
-					background: currentColor !important;
-					background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 5px) !important;
-				}',
-			)
-		);
+	foreach ( $block_styles as $block => $styles ) {
+		foreach ( $styles as $style_name => $style_label ) {
+			register_block_style(
+				$block,
+				array(
+					'name'  => $style_name,
+					'label' => $style_label,
+				)
+			);
+		}
 	}
-endif;
-
-add_action( 'init', 'henry_block_styles' );
+}
+add_action( 'init', __NAMESPACE__ . '\register_block_styles' );
 
 /**
- * Enqueue block stylesheets.
+ * Load custom block styles only when the block is used.
  */
+function enqueue_custom_block_styles() {
 
-if ( ! function_exists( 'henry_block_stylesheets' ) ) :
-	/**
-	 * Enqueue custom block stylesheets
-	 *
-	 * @since Henry 1.0
-	 * @return void
-	 */
-	function henry_block_stylesheets() {
-		/**
-		 * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
-		 * for a specific block. These will only get loaded when the block is rendered
-		 * (both in the editor and on the front end), improving performance
-		 * and reducing the amount of data requested by visitors.
-		 *
-		 * See https://make.wordpress.org/core/2021/12/15/using-multiple-stylesheets-per-block/ for more info.
-		 */
+	// Scan our styles folder to locate block styles.
+	$files = glob( get_template_directory() . '/assets/styles/*.css' );
+
+	foreach ( $files as $file ) {
+
+		// Get the filename and core block name.
+		$filename   = basename( $file, '.css' );
+		$block_name = str_replace( 'core-', 'core/', $filename );
+
 		wp_enqueue_block_style(
-			'core/button',
+			$block_name,
 			array(
-				'handle' => 'henry-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
-				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),
+				'handle' => "henry-block-{$filename}",
+				'src'    => get_theme_file_uri( "assets/styles/{$filename}.css" ),
+				'path'   => get_theme_file_path( "assets/styles/{$filename}.css" ),
 			)
 		);
 	}
-endif;
+}
+add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
 
-add_action( 'init', 'henry_block_stylesheets' );
 
 /**
  * Register pattern categories.
  */
+function pattern_categories() {
 
-if ( ! function_exists( 'henry_pattern_categories' ) ) :
-	/**
-	 * Register pattern categories
-	 *
-	 * @since Henry 1.0
-	 * @return void
-	 */
-	function henry_pattern_categories() {
+	$block_pattern_categories = array(
+		'henry/card'           => array(
+			'label' => __( 'Cards', 'henry' ),
+		),
+		'henry/call-to-action' => array(
+			'label' => __( 'Call To Action', 'henry' ),
+		),
+		'henry/features'       => array(
+			'label' => __( 'Features', 'henry' ),
+		),
+		'henry/hero'           => array(
+			'label' => __( 'Hero', 'henry' ),
+		),
+		'henry/pages'          => array(
+			'label' => __( 'Pages', 'henry' ),
+		),
+		'henry/posts'          => array(
+			'label' => __( 'Posts', 'henry' ),
+		),
+		'henry/pricing'        => array(
+			'label' => __( 'Pricing', 'henry' ),
+		),
+		'henry/testimonial'    => array(
+			'label' => __( 'Testimonials', 'henry' ),
+		),
+	);
 
-		register_block_pattern_category(
-			'page',
-			array(
-				'label'       => _x( 'Pages', 'Block pattern category' ),
-				'description' => __( 'A collection of full page layouts.' ),
-			)
-		);
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		register_block_pattern_category( $name, $properties );
 	}
-endif;
-
-add_action( 'init', 'henry_pattern_categories' );
-
+}
+add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );

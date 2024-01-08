@@ -134,7 +134,7 @@
 			],
 			"palette": [
 				{
-					"color": "#fbfbfd",
+					"color": "#ffffff",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -174,12 +174,12 @@
 					"slug": "accent-2"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#f5f7f9",
 					"name": "Base / Two",
 					"slug": "base-2"
 				},
 				{
-					"color": "#313c4d",
+					"color": "#334155",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				}
@@ -263,6 +263,38 @@
 					"fontFamily": "\"Albert Sans\", sans-serif",
 					"name": "Albert Sans",
 					"slug": "default"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Inter\", sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Space Grotesk",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/space-grotesk/SpaceGrotesk[wght].woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Space Grotesk\", sans-serif",
+					"name": "Space Grotesk",
+					"slug": "space-grotesk"
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",

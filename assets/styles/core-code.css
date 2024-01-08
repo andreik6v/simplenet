@@ -1,0 +1,9 @@
+/* Code
+--------------------------------------------- */
+
+.is-style-dark-code,
+.editor-styles-wrapper .wp-block-code.is-style-dark-code {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--base);
+	padding: calc(var(--wp--preset--spacing--30) + 0.75rem);
+}

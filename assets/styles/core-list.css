@@ -1,0 +1,68 @@
+/* List
+--------------------------------------------- */
+
+/* List styles for default unordered lists */
+.entry-content ul li,
+.entry-content ol li,
+.wp-block-post-content ul li,
+.wp-block-post-content ol li {
+	margin-bottom: 0;
+}
+
+/* .entry-content > ul li,
+.entry-content > ol li,
+.wp-block-post-content > ul li,
+.wp-block-post-content > ol li {
+	margin-bottom: 0;
+} */
+
+.entry-content ul ul,
+.entry-content ol ul,
+.wp-block-post-content ul ul,
+.wp-block-post-content ol ul {
+	margin-top: 0;
+}
+
+/* Remove paddings */
+.entry-content :not(.wp-block-group) > li:first-child {
+	padding-top: 0;
+}
+
+.entry-content :not(.wp-block-group) li:last-child {
+	padding-bottom: 0;
+}
+
+ul.is-style-list-check,
+ul.is-style-list-check ul,
+ul.is-style-list-check-circle,
+ul.is-style-list-check-circle ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.entry-content ul.is-style-list-check,
+.entry-content ul.is-style-list-check-circle {
+	padding-inline-start: 1.5rem;
+}
+
+ul.is-style-list-check li,
+ul.is-style-list-check-circle li {
+	position: relative;
+	padding-left: 1.5rem;
+}
+
+ul.is-style-list-check li:before,
+ul.is-style-list-check-circle li:before {
+	font-family: 'Dashicons';
+	content: "\f147";
+	position: absolute;
+	left: 0;
+}
+
+ul.is-style-list-check-circle li:before {
+	content: "\f12a";
+}
+
+ul.is-style-list-check-circle li {
+	padding-left: 1.5rem;
+}
