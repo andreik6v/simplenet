@@ -12,11 +12,11 @@
 }
 
 .is-style-blur-image-less > .wp-block-cover__image-background {
-	filter: blur(25px);
+	filter: blur(5px);
 }
 
 .is-style-blur-image-more > .wp-block-cover__image-background {
-	filter: blur(75px);
+	filter: blur(15px);
 }
 
 .is-style-rounded-cover img {
