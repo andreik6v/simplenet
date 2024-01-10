@@ -34,35 +34,35 @@
 
 ul.is-style-list-check,
 ul.is-style-list-check ul,
-ul.is-style-list-check-circle,
-ul.is-style-list-check-circle ul {
+ul.is-style-list-check-no,
+ul.is-style-list-check-no ul {
 	padding-left: 0;
 	list-style: none;
 }
 
 .entry-content ul.is-style-list-check,
-.entry-content ul.is-style-list-check-circle {
+.entry-content ul.is-style-list-check-no {
 	padding-inline-start: 1.5rem;
 }
 
 ul.is-style-list-check li,
-ul.is-style-list-check-circle li {
+ul.is-style-list-check-no li {
 	position: relative;
 	padding-left: 1.5rem;
 }
 
 ul.is-style-list-check li:before,
-ul.is-style-list-check-circle li:before {
+ul.is-style-list-check-no li:before {
 	font-family: 'Dashicons';
 	content: "\f147";
 	position: absolute;
 	left: 0;
 }
 
-ul.is-style-list-check-circle li:before {
-	content: "\f12a";
+ul.is-style-list-check-no li:before {
+	content: "\f335";
 }
 
-ul.is-style-list-check-circle li {
+ul.is-style-list-check-no li {
 	padding-left: 1.5rem;
 }

@@ -33,7 +33,7 @@
 				{
 					"name": "Vertical contrast to base",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0E1116 0%, #ffffff 100%)"
+					"gradient": "linear-gradient(to bottom, #0E1116 0%, rgb(255,255,255, 0.36) 100%)"
 				}
 			],
 			"palette": [

@@ -4,9 +4,12 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"custom": true,
+            "customDuotone": true,
+            "customGradient": true,
 			"defaultDuotone": false,
 			"defaultPalette": false,
-			"defaultGradients": false,
+			"defaultGradients": true,
 			"duotone": [
 				{
 					"name": "Blue",

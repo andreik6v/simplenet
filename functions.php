@@ -52,8 +52,8 @@ function register_block_styles() {
 			'secondary-button' => __( 'Secondary', 'henry' ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'Check', 'henry' ),
-			'list-check-circle' => __( 'Check Circle', 'henry' ),
+			'list-check'        => __( 'Check Yes', 'henry' ),
+			'list-check-no' => __( 'Check No', 'henry' ),
 		),
 		'core/query-pagination-next'     => array(
 			'wp-block-button__link' => __( 'Button', 'henry' ),
