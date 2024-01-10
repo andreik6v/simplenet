@@ -4,9 +4,41 @@
 	"description":  "Cyan-based palette with four shades and two accents",
 	"settings": {
 		"color": {
+			"gradients": [
+				{
+					"name": "Primary to accent",
+					"slug": "gradient-1",
+					"gradient": "linear-gradient(135deg, #0e7490 0%, #ec4899 100%)"
+				},
+				{
+					"name": "Quaternary to accent two",
+					"slug": "gradient-2",
+					"gradient": "linear-gradient(135deg, #cffafe 0%, #fce7f3 100%)"
+				},
+				{
+					"name": "Radial quaternary to tertiary",
+					"slug": "gradient-3",
+					"gradient": "radial-gradient(#cffafe 0%, #67e8f9 100%)"
+				},
+				{
+					"name": "Vertical quaternary to base",
+					"slug": "gradient-4",
+					"gradient": "linear-gradient(to bottom, #cffafe 0%, #ffffff 100%)"
+				},
+				{
+					"name": "Vertical hard quaternary to base",
+					"slug": "gradient-5",
+					"gradient": "linear-gradient(to bottom, #cffafe 70%, #ffffff 70%)"
+				},
+				{
+					"name": "Vertical contrast to base",
+					"slug": "gradient-6",
+					"gradient": "linear-gradient(to bottom, #0E1116 0%, #ffffff 100%)"
+				}
+			],
 			"palette": [
 				{
-					"color": "#fbfbfd",
+					"color": "#ffffff",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -46,12 +78,12 @@
 					"slug": "accent-2"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#f5f7f9",
 					"name": "Base / Two",
 					"slug": "base-2"
 				},
 				{
-					"color": "#313c4d",
+					"color": "#334155",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				}
