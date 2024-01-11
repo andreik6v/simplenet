@@ -13,3 +13,58 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: henrywp
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+
+/* Standardize form styling
+--------------------------------------------- */
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+input:not([type="submit"]),
+select,
+textarea,
+.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments-form textarea {
+	color: var(--wp--preset--color--main);
+	border-radius: 5px;
+	border: solid 1px var(--wp--preset--color--main-accent);
+	padding: .5em 1em;
+	font-size: var(--wp--preset--font-size--small);
+	width: 100%;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+	outline-color: var(--wp--preset--color--primary);
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+label {
+	width: 100%;
+	display: block;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--secondary);
+	font-size: var(--wp--preset--font-size--small);
+	opacity: 0.75;
+}
