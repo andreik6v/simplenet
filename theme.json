@@ -9,7 +9,7 @@
             "customGradient": true,
 			"defaultDuotone": false,
 			"defaultPalette": false,
-			"defaultGradients": true,
+			"defaultGradients": false,
 			"duotone": [
 				{
 					"name": "Blue",
