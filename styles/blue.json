@@ -13,7 +13,7 @@
 				{
 					"name": "Quaternary to accent two",
 					"slug": "gradient-2",
-					"gradient": "linear-gradient(135deg, #dbeafe 0%, #ccfbf1 100%)"
+					"gradient": "linear-gradient(135deg, #dbeafe 0%, #fce7f3 100%)"
 				},
 				{
 					"name": "Radial quaternary to tertiary",
@@ -73,7 +73,7 @@
 					"slug": "accent"
 				},
 				{
-					"color": "#ccfbf1",
+					"color": "#fce7f3",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},
