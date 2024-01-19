@@ -18,7 +18,7 @@
 				{
 					"name": "Radial quaternary to tertiary",
 					"slug": "gradient-3",
-					"gradient": "radial-gradient(#e0f2fe 0%, #c4b5fd 100%)"
+					"gradient": "radial-gradient(#e0f2fe 0%, #7dd3fc 100%)"
 				},
 				{
 					"name": "Vertical quaternary to base",
