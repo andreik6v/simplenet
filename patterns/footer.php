@@ -37,7 +37,7 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'About', 'henry' ); ?></h2>
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Use cases', 'henry' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -45,9 +45,10 @@
 
 						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'About', 'henry' ); ?>"} -->
 
-						<!-- wp:navigation-link {"label":"Team","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"History","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Careers","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"Small Business","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"Agency","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"WooCommerce","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"High traffic","url":"#"} /-->
 
 						<!-- /wp:navigation -->
 
@@ -60,7 +61,7 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Privacy', 'henry' ); ?></h2>
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Resources', 'henry' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -68,9 +69,10 @@
 
 						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Privacy', 'henry' ); ?>"} -->
 
-						<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Terms and Conditions","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"Blog","url":"/blog"} /-->
+						<!-- wp:navigation-link {"label":"Knowledgebase","url":"/knowledgebase"} /-->
+						<!-- wp:navigation-link {"label":"Video tutorials","url":"/youtube"} /-->
+						<!-- wp:navigation-link {"label":"Case Studies","url":"/case-studies"} /-->
 
 						<!-- /wp:navigation -->
 
@@ -82,7 +84,7 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Social', 'henry' ); ?></h2>
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Company', 'henry' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -90,9 +92,10 @@
 
 						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Social Media', 'henry' ); ?>"} -->
 
-						<!-- wp:navigation-link {"label":"Facebook","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Instagram","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Twitter/X","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"About Us","url":"/about"} /-->
+						<!-- wp:navigation-link {"label":"Contact Us","url":"/contact"} /-->
+						<!-- wp:navigation-link {"label":"Privacy Policy","url":"/privacy"} /-->
+						<!-- wp:navigation-link {"label":"Terms and Conditions","url":"/terms"} /-->
 
 						<!-- /wp:navigation -->
 
@@ -113,7 +116,7 @@
 		<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size">
 		<?php
 			/* Translators: WordPress link. */
-			$wordpress_link = '<a href="' . esc_url( __( 'https://henrywp.com/', 'henry' ) ) . '" rel="nofollow">WordPress</a>';
+			$wordpress_link = '<a href="' . esc_url( __( 'https://henrywp.com/', 'henry' ) ) . '" rel="nofollow">Henry</a>';
 			echo sprintf(
 				/* Translators: Designed with WordPress */
 				esc_html__( 'Designed with %1$s', 'henry' ),
