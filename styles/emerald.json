@@ -31,9 +31,9 @@
 					"gradient": "linear-gradient(to bottom, #d1fae5 70%, #ffffff 70%)"
 				},
 				{
-					"name": "Vertical contrast to base",
+					"name": "Vertical contrast to opacity",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0E1116 0%, #ffffff 100%)"
+					"gradient": "linear-gradient(to bottom, #0E1116 0%, rgb(0,0,0, 0.36) 100%)"
 				}
 			],
 			"palette": [
