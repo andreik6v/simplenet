@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Sky",
-	"description":  "Sky-based palette with four shades",
+	"description":  "Sky-based palette with four shades and two accents",
 	"settings": {
 		"color": {
 			"gradients": [
@@ -33,7 +33,7 @@
 				{
 					"name": "Vertical contrast to base",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0E1116 0%, #ffffff 100%)"
+					"gradient": "linear-gradient(to bottom, #0a0a0a 0%, #ffffff 100%)"
 				}
 			],
 			"palette": [
@@ -43,7 +43,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0E1116",
+					"color": "#0a0a0a",
 					"name": "Contrast",
 					"slug": "contrast"
 				},

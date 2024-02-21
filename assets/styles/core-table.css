@@ -2,5 +2,5 @@
 --------------------------------------------- */
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-	background-color: var(--wp--preset--color--tertiary);
+	background-color: var(--wp--preset--color--quaternary);
 }
