@@ -33,7 +33,7 @@
 				{
 					"name": "Vertical contrast to opacity",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0E1116 0%, rgb(0,0,0, 0.36) 100%)"
+					"gradient": "linear-gradient(to bottom, #0a0a0a 0%, rgb(0,0,0, 0.36) 100%)"
 				}
 			],
 			"palette": [
@@ -43,7 +43,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0E1116",
+					"color": "#0a0a0a",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
