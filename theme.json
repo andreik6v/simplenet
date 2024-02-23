@@ -110,14 +110,14 @@
 			],
 			"gradients": [
 				{
-					"name": "Primary to accent",
+					"name": "Secondary to accent",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, #6d28d9 0%, #3b82f6 100%)"
+					"gradient": "linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)"
 				},
 				{
 					"name": "Quaternary to accent two",
 					"slug": "gradient-2",
-					"gradient": "linear-gradient(135deg, #ede9fe 0%, #dbeafe 100%)"
+					"gradient": "linear-gradient(135deg, #ede9fe 0%, #ffe4e6 100%)"
 				},
 				{
 					"name": "Radial quaternary to tertiary",
@@ -137,7 +137,7 @@
 				{
 					"name": "Vertical contrast to base",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0E1116 0%, rgb(0,0,0, 0.16) 100%)"
+					"gradient": "linear-gradient(to bottom, #0a0a0a 0%, rgb(0,0,0, 0.16) 100%)"
 				}
 			],
 			"palette": [
@@ -147,7 +147,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0E1116",
+					"color": "#0a0a0a",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -172,12 +172,12 @@
 					"slug": "quaternary"
 				},
 				{
-					"color": "#3b82f6",
+					"color": "#ec4899",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-					"color": "#dbeafe",
+					"color": "#ffe4e6",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},
