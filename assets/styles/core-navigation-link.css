@@ -1,0 +1,9 @@
+/* Navigation link
+--------------------------------------------- */
+.is-style-arrow-link .wp-block-navigation-item__label:after {
+    content: "\2197";
+    padding-inline-start: 0.25rem;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -71,6 +71,9 @@ function register_block_styles() {
 		'core/column'                    => array(
 			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
 		),
+		'core/columns' => array(
+			'column-reverse' => __( 'Reverse', 'henry' ),
+		),
 		'core/group'                     => array(
 			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
 		),
@@ -90,6 +93,9 @@ function register_block_styles() {
 		'core/video'                     => array(
 			'media-boxed' => __( 'Boxed', 'henry' ),
 		),
+		'core/navigation-link'           => array(
+			'arrow-link'  => __( 'With arrow', 'henry' ),
+			)
 	);
 
 	foreach ( $block_styles as $block => $styles ) {

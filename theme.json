@@ -305,6 +305,33 @@
 					"slug": "space-grotesk"
 				},
 				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Figtree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/figtree/figtree_normal_300-900.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Figtree",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/figtree/figtree_italic_300-900.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Figtree\", sans-serif",
+					"name": "Figtree",
+					"slug": "figtree"
+				},
+				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
 					"name": "System Sans-serif",
 					"slug": "system-sans-serif"
