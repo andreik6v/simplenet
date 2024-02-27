@@ -18,7 +18,7 @@
 				{
 					"name": "Radial quaternary to tertiary",
 					"slug": "gradient-3",
-					"gradient": "radial-gradient(#d1fae5 0%, #c4b5fd 100%)"
+					"gradient": "radial-gradient(#d1fae5 0%, #6ee7b7 100%)"
 				},
 				{
 					"name": "Vertical quaternary to base",
@@ -31,9 +31,9 @@
 					"gradient": "linear-gradient(to bottom, #d1fae5 70%, #ffffff 70%)"
 				},
 				{
-					"name": "Vertical contrast to opacity",
+					"name": "Radial quaternary to base",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0a0a0a 0%, rgb(0,0,0, 0.36) 100%)"
+					"gradient": "radial-gradient(#d1fae5 0%, #ffffff 100%)"
 				}
 			],
 			"palette": [
