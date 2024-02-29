@@ -19,6 +19,16 @@ Henry is designed to be flexible, versatile and applicable to any business websi
 == Copyright ==
 
 Henry WordPress Theme, (C) 2023 HenryWP.com
+
+Henry is a derivative work of the code from the following themes:
+
+- Twenty Twenty-Four WordPress Theme
+- Ollie WordPress Theme
+- Powder WordPress Theme
+- Wabi WordPress Theme
+- Frost WordPress Theme
+- Twenty Twenty-Three WordPress Theme
+
 Henry is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
