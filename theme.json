@@ -877,7 +877,7 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--accent)",
+						"background": "var(--wp--preset--color--contrast)",
 						"text": "var(--wp--preset--color--base)"
 					},
 					"border": {
@@ -889,7 +889,7 @@
 					"color": "var(--wp--preset--color--contrast)"
 				},
 				"color": {
-					"background": "var(--wp--preset--gradient--gradient-1)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
