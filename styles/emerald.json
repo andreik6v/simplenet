@@ -33,7 +33,7 @@
 				{
 					"name": "Radial quaternary to base",
 					"slug": "gradient-6",
-					"gradient": "radial-gradient(#d1fae5 0%, #ffffff 100%)"
+					"gradient": "radial-gradient(#d1fae5 0%, #ffffff 70%)"
 				}
 			],
 			"palette": [

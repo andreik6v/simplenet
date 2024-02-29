@@ -31,9 +31,9 @@
 					"gradient": "linear-gradient(to bottom, #e0e7ff 70%, #ffffff 70%)"
 				},
 				{
-					"name": "Vertical contrast to base",
+					"name": "Radial quaternary to base",
 					"slug": "gradient-6",
-					"gradient": "linear-gradient(to bottom, #0a0a0a 0%, #ffffff 100%)"
+					"gradient": "radial-gradient(#e0e7ff 0%, #ffffff 70%)"
 				}
 			],
 			"palette": [
