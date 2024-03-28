@@ -9,25 +9,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Henry is designed to be flexible, versatile and applicable to any business website. Henry comes with a collection of templates, patterns and style variations to help speed up the site building process.
+Henry is designed to embrace the potential of block-based design, and comes with a colorful collection of style variations and gradients.
 
 == Changelog ==
 
 = 1.0 =
-* Released: November 7, 2023
+* Released: March 27, 2024
 
 == Copyright ==
 
-Henry WordPress Theme, (C) 2023 HenryWP.com
+Henry WordPress Theme, (C) 2024 HenryWP.com
 
 Henry is a derivative work of the code from the following themes:
 
-- Twenty Twenty-Four WordPress Theme
-- Ollie WordPress Theme
-- Powder WordPress Theme
-- Wabi WordPress Theme
-- Frost WordPress Theme
-- Twenty Twenty-Three WordPress Theme
+- Twenty Twenty-Four WordPress Theme by The WordPress Team
+- Ollie WordPress Theme by Mike McAlister
+- Powder WordPress Theme by Brian Gardner
 
 Henry is distributed under the terms of the GNU GPL.
 
@@ -43,8 +40,3 @@ GNU General Public License for more details.
 
 === Images ===
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-
-
-
-License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
-icon-message.webp
