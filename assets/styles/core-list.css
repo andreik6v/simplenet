@@ -49,6 +49,7 @@ ul.is-style-list-check li,
 ul.is-style-list-check-no li {
 	position: relative;
 	padding-left: 1rem;
+    margin-bottom: .65em;
 }
 
 ul.is-style-list-check li:before,
