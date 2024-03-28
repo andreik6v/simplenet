@@ -34,15 +34,6 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 
 
 /**
- * Add Dashicons for use with block styles.
- */
-function enqueue_block_dashicons() {
-	wp_enqueue_style( 'dashicons' );
-}
-add_action( 'enqueue_block_assets', __NAMESPACE__ . '\enqueue_block_dashicons' );
-
-
-/**
  * Add block style variations.
  */
 function register_block_styles() {
@@ -92,10 +83,7 @@ function register_block_styles() {
 		),
 		'core/video'                     => array(
 			'media-boxed' => __( 'Boxed', 'henry' ),
-		),
-		'core/navigation-link'           => array(
-			'arrow-link'  => __( 'With arrow', 'henry' ),
-			)
+		)
 	);
 
 	foreach ( $block_styles as $block => $styles ) {

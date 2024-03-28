@@ -48,21 +48,36 @@ ul.is-style-list-check-no ul {
 ul.is-style-list-check li,
 ul.is-style-list-check-no li {
 	position: relative;
-	padding-left: 1.5rem;
+	padding-left: 1rem;
 }
 
 ul.is-style-list-check li:before,
 ul.is-style-list-check-no li:before {
-	font-family: 'Dashicons';
-	content: "\f147";
-	position: absolute;
-	left: 0;
+	content: "";
+	background-color: var(--wp--preset--color--primary);
+    display: block;
+    position: absolute;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    -webkit-mask: url(../../assets/images/check-circle.svg);
+    mask: url(../../assets/images/check-circle.svg);
+    width: 24px !important;
+    height: 24px !important;
+    left: -15px;
+    top: .09em;
 }
 
 ul.is-style-list-check-no li:before {
-	content: "\f335";
-}
-
-ul.is-style-list-check-no li {
-	padding-left: 1.5rem;
+	content: "";
+	background-color: var(--wp--preset--color--accent);
+    display: block;
+    position: absolute;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    -webkit-mask: url(../../assets/images/xmark-circle.svg);
+    mask: url(../../assets/images/xmark-circle.svg);
+    width: 24px !important;
+    height: 24px !important;
+    left: -15px;
+    top: .09em;
 }

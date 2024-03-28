@@ -39,4 +39,6 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 === Images ===
-License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+SVG icons from https://heroicons.com/
+License: MIT https://opensource.org/license/mit
+
