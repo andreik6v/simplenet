@@ -849,7 +849,7 @@
 						"color": "var(--wp--preset--color--contrast)"
 					},
 					"color": {
-						"background": "var(--wp--preset--color--secondary)",
+						"background": "var(--wp--preset--color--primary)",
 						"gradient": "none",
 						"text": "var(--wp--preset--color--base)"
 					}
