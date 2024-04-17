@@ -301,6 +301,22 @@
 					"slug": "default"
 				},
 				{
+					"fontFace": [
+						{
+							"fontFamily": "Space Grotesk",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/space-grotesk/SpaceGrotesk[wght].woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Space Grotesk\", sans-serif",
+					"name": "Space Grotesk",
+					"slug": "space-grotesk"
+				},
+				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
 					"name": "System Sans-serif",
 					"slug": "system-sans-serif"
