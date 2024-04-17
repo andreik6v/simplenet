@@ -937,7 +937,7 @@
 					"text": "var(--wp--preset--color--contrast)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--default)",
+					"fontFamily": "var(--wp--preset--font-family--space-grotesk)",
 					"fontWeight": "700",
 					"lineHeight": "1.2"
 				}
