@@ -8,12 +8,12 @@
 				{
 					"name": "Secondary to accent",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, #a855f7 0%, #14b8a6 100%)"
+					"gradient": "linear-gradient(135deg, #a855f7 0%, #3b82f6 100%)"
 				},
 				{
 					"name": "Quaternary to accent two",
 					"slug": "gradient-2",
-					"gradient": "linear-gradient(135deg, #f3e8ff 0%, #ccfbf1 100%)"
+					"gradient": "linear-gradient(135deg, #f3e8ff 0%, #dbeafe 100%)"
 				},
 				{
 					"name": "Radial quaternary to tertiary",
@@ -68,12 +68,12 @@
 					"slug": "quaternary"
 				},
 				{
-					"color": "#14b8a6",
+					"color": "#3b82f6",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-					"color": "#ccfbf1",
+					"color": "#dbeafe",
 					"name": "Accent / Two",
 					"slug": "accent-2"
 				},

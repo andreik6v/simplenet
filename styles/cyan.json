@@ -6,9 +6,9 @@
 		"color": {
 			"gradients": [
 				{
-					"name": "Primary to accent",
+					"name": "Secondary to accent",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, #0e7490 0%, #84cc16 100%)"
+					"gradient": "linear-gradient(135deg, #06b6d4 0%, #84cc16 100%)"
 				},
 				{
 					"name": "Quaternary to accent two",

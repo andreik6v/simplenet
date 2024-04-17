@@ -8,7 +8,7 @@
 				{
 					"name": "Secondary to accent",
 					"slug": "gradient-1",
-					"gradient": "linear-gradient(135deg, #eab308 0%, #fb7185 100%)"
+					"gradient": "linear-gradient(135deg, #eab308 0%, #fda4af 100%)"
 				},
 				{
 					"name": "Quaternary to accent two",
@@ -68,7 +68,7 @@
 					"slug": "quaternary"
 				},
 				{
-					"color": "#fb7185",
+					"color": "#fda4af",
 					"name": "Accent",
 					"slug": "accent"
 				},
