@@ -22,9 +22,9 @@ Henry Block WordPress Theme, (C) 2024 HenryWP.com
 
 Henry is a derivative work of the code from the following themes:
 
-- Twenty Twenty-Four WordPress Theme by The WordPress Team
-- Ollie WordPress Theme by Mike McAlister
-- Powder WordPress Theme by Brian Gardner
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org Twenty Twenty-Four is distributed under the terms of the GNU GPL.
+Ollie Theme, (C) 2023 Mike McAlister. Ollie is distributed under the terms of the GNU GPL.
+Powder WordPress Theme, (C) 2022-2024 Brian Gardner. Powder is distributed under the terms of the GNU GPL.
 
 Henry is distributed under the terms of the GNU GPL.
 

@@ -127,3 +127,32 @@ function enqueue_custom_block_styles() {
 	}
 }
 add_action( 'init', __NAMESPACE__ . '\enqueue_custom_block_styles' );
+
+/**
+ * Register pattern categories.
+ */
+function pattern_categories() {
+
+	$block_pattern_categories = array(
+		'henry-block/features'       => array(
+			'label' => __( 'Features', 'henry-block' ),
+		),
+		'henry-block/hero'           => array(
+			'label' => __( 'Hero', 'henry-block' ),
+		),
+		'henry-block/pages'          => array(
+			'label' => __( 'Pages', 'henry-block' ),
+		),
+		'henry-block/pricing'        => array(
+			'label' => __( 'Pricing', 'henry-block' ),
+		),
+		'henry-block/testimonial'    => array(
+			'label' => __( 'Testimonials', 'henry-block' ),
+		),
+	);
+
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		register_block_pattern_category( $name, $properties );
+	}
+}
+add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
