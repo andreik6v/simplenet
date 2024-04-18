@@ -58,6 +58,7 @@ function register_block_styles() {
 		'core/cover'                     => array(
 			'blur-image-less' => __( 'Blur Image Less', 'henry' ),
 			'blur-image-more' => __( 'Blur Image More', 'henry' ),
+			'gradient' => __( 'Gradient', 'henry' ),
 		),
 		'core/column'                    => array(
 			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
