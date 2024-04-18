@@ -38,9 +38,20 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+=== Font ===
+
+Albert Sans font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://fonts.google.com/specimen/Albert+Sans/
+
 === Images ===
+
+
+=== Icons ===
+
 check-circle.svg
 xmark-circle.svg
-SVG icons from https://heroicons.com/
+
+Source: https://heroicons.com/
 License: MIT https://opensource.org/license/mit
 
