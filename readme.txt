@@ -1,7 +1,7 @@
 === Henry ===
 Contributors: smlaci
 Requires at least: 6.4
-Tested up to: 6.4
+Tested up to: 6.5.2
 Requires PHP: 7.0
 Stable tag: 1.0
 License: GPLv2 or later
@@ -14,7 +14,7 @@ Henry is designed to embrace the potential of block-based design, and comes with
 == Changelog ==
 
 = 1.0 =
-* Released: March 27, 2024
+* Released: April 18, 2024
 
 == Copyright ==
 
@@ -43,9 +43,6 @@ GNU General Public License for more details.
 Albert Sans font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Albert+Sans/
-
-=== Images ===
-
 
 === Icons ===
 
