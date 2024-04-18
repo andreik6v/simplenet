@@ -2,7 +2,7 @@
 /**
  * This file adds functions to the Henry WordPress theme.
  *
- * @package henry
+ * @package henry-block
  * @author  Andrei Chira
  * @license GNU General Public License v2 or later
  * @link    https://henrywp.com
@@ -40,51 +40,51 @@ function register_block_styles() {
 
 	$block_styles = array(
 		'core/button'                    => array(
-			'secondary-button' => __( 'Secondary', 'henry' ),
+			'secondary-button' => __( 'Secondary', 'henry-block' ),
 		),
 		'core/list'                      => array(
-			'list-check'        => __( 'Check Yes', 'henry' ),
-			'list-check-no' => __( 'Check No', 'henry' ),
+			'list-check'        => __( 'Check Yes', 'henry-block' ),
+			'list-check-no' => __( 'Check No', 'henry-block' ),
 		),
 		'core/query-pagination-next'     => array(
-			'wp-block-button__link' => __( 'Button', 'henry' ),
+			'wp-block-button__link' => __( 'Button', 'henry-block' ),
 		),
 		'core/query-pagination-previous' => array(
-			'wp-block-button__link' => __( 'Button', 'henry' ),
+			'wp-block-button__link' => __( 'Button', 'henry-block' ),
 		),
 		'core/code'                      => array(
-			'dark-code' => __( 'Dark', 'henry' ),
+			'dark-code' => __( 'Dark', 'henry-block' ),
 		),
 		'core/cover'                     => array(
-			'blur-image-less' => __( 'Blur Image Less', 'henry' ),
-			'blur-image-more' => __( 'Blur Image More', 'henry' ),
-			'gradient' => __( 'Gradient', 'henry' ),
-			'rounded-cover'   => __( 'Rounded', 'henry' ),
+			'blur-image-less' => __( 'Blur Image Less', 'henry-block' ),
+			'blur-image-more' => __( 'Blur Image More', 'henry-block' ),
+			'gradient' => __( 'Gradient', 'henry-block' ),
+			'rounded-cover'   => __( 'Rounded', 'henry-block' ),
 		),
 		'core/column'                    => array(
-			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
+			'column-box-shadow' => __( 'Box Shadow', 'henry-block' ),
 		),
 		'core/columns' => array(
-			'column-reverse' => __( 'Reverse', 'henry' ),
+			'column-reverse' => __( 'Reverse', 'henry-block' ),
 		),
 		'core/group'                     => array(
-			'column-box-shadow' => __( 'Box Shadow', 'henry' ),
+			'column-box-shadow' => __( 'Box Shadow', 'henry-block' ),
 		),
 		'core/separator'                 => array(
-			'separator-dotted' => __( 'Dotted', 'henry' ),
+			'separator-dotted' => __( 'Dotted', 'henry-block' ),
 		),
 		'core/image'                     => array(
-			'rounded-full' => __( 'Rounded Full', 'henry' ),
-			'media-boxed'  => __( 'Boxed', 'henry' ),
+			'rounded-full' => __( 'Rounded Full', 'henry-block' ),
+			'media-boxed'  => __( 'Boxed', 'henry-block' ),
 		),
 		'core/preformatted'              => array(
-			'preformatted-dark' => __( 'Dark Style', 'henry' ),
+			'preformatted-dark' => __( 'Dark Style', 'henry-block' ),
 		),
 		'core/post-terms'                => array(
-			'term-button' => __( 'Button Style', 'henry' ),
+			'term-button' => __( 'Button Style', 'henry-block' ),
 		),
 		'core/video'                     => array(
-			'media-boxed' => __( 'Boxed', 'henry' ),
+			'media-boxed' => __( 'Boxed', 'henry-block' ),
 		)
 	);
 

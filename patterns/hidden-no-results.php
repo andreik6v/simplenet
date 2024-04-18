@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: No results
- * Slug: henry/hidden-no-results
+ * Slug: henry-block/hidden-no-results
  * Inserter: no
  */
 ?>
 <!-- wp:paragraph -->
-<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'henry' ); ?></p>
+<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'henry-block' ); ?></p>
 <!-- /wp:paragraph -->

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer
- * Slug: henry/footer
+ * Slug: henry-block/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  */

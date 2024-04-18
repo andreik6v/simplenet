@@ -1,4 +1,4 @@
-=== Henry ===
+=== Henry Block ===
 Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.5.2
@@ -18,7 +18,7 @@ Henry is designed to embrace the potential of block-based design, and comes with
 
 == Copyright ==
 
-Henry WordPress Theme, (C) 2024 HenryWP.com
+Henry Block WordPress Theme, (C) 2024 HenryWP.com
 
 Henry is a derivative work of the code from the following themes:
 
