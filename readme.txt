@@ -39,6 +39,8 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 === Images ===
+check-circle.svg
+xmark-circle.svg
 SVG icons from https://heroicons.com/
 License: MIT https://opensource.org/license/mit
 
