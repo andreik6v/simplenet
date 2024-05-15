@@ -395,7 +395,7 @@
 					"color": "var(--wp--preset--color--contrast)"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--base)",
+					"background": "var(--wp--preset--color--base-2)",
 					"text": "var(--wp--preset--color--contrast)"
 				},
 				"spacing": {
