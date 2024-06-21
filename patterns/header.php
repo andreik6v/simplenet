@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header
- * Slug: henry-block/header
+ * Slug: henryblock/header
  * Categories: header
  * Block Types: core/template-part/header
  */

@@ -14,7 +14,7 @@ Henry is designed to embrace the potential of block-based design, and comes with
 == Changelog ==
 
 = 1.0 =
-* Released: June 20, 2024
+* Released: June 21, 2024
 
 == Copyright ==
 

@@ -20,4 +20,4 @@
     "henryblock"
 ); ?></p>
 <!-- /wp:paragraph -->
-<!-- wp:pattern {"slug":"henry-block/hidden-search"} /-->
+<!-- wp:pattern {"slug":"henryblock/hidden-search"} /-->
