@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Comments
- * Slug: henry-block/hidden-comments
+ * Slug: henryblock/hidden-comments
  * Inserter: no
  */
 ?>
@@ -9,7 +9,7 @@
 <!-- wp:comments {"className":"wp-block-comments-query-loop"} -->
 <div class="wp-block-comments wp-block-comments-query-loop">
 	<!-- wp:heading -->
-	<h2><?php esc_html_e( 'Comments', 'henry-block' ); ?></h2>
+	<h2><?php esc_html_e( 'Comments', 'henryblock' ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:comments-title {"level":3} /-->
 	<!-- wp:comment-template -->

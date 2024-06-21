@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer
- * Slug: henry-block/footer
+ * Slug: henryblock/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -42,13 +42,13 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small"} -->
-<!-- wp:navigation-link {"label":"Small Business","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Web Design","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Agency","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Web Hosting","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"WooCommerce","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Site Maintenance","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"High traffic","url":"#"} /-->
+<!-- wp:navigation-link {"label":"Site Audit","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -60,13 +60,13 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small"} -->
-<!-- wp:navigation-link {"label":"Blog","url":"/blog"} /-->
+<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Knowledgebase","url":"/knowledgebase"} /-->
+<!-- wp:navigation-link {"label":"Knowledgebase","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Video tutorials","url":"/youtube"} /-->
+<!-- wp:navigation-link {"label":"Video tutorials","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Case Studies","url":"/case-studies"} /-->
+<!-- wp:navigation-link {"label":"Case Studies","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -78,13 +78,13 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small"} -->
-<!-- wp:navigation-link {"label":"About Us","url":"/about"} /-->
+<!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Contact Us","url":"/contact"} /-->
+<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Privacy Policy","url":"/privacy"} /-->
+<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
 
-<!-- wp:navigation-link {"label":"Terms and Conditions","url":"/terms"} /-->
+<!-- wp:navigation-link {"label":"Terms and Conditions","url":"#"} /-->
 <!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -101,7 +101,7 @@
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
     <!-- wp:paragraph -->
-		<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> · Your Company LLC</p>
+		<p>&copy; <?php echo esc_html(gmdate("Y")); ?> · Your Company LLC</p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

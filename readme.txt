@@ -1,7 +1,7 @@
 === Henry Block ===
 Contributors: smlaci
 Requires at least: 6.4
-Tested up to: 6.5.2
+Tested up to: 6.5.4
 Requires PHP: 7.0
 Stable tag: 1.0
 License: GPLv2 or later
@@ -14,7 +14,7 @@ Henry is designed to embrace the potential of block-based design, and comes with
 == Changelog ==
 
 = 1.0 =
-* Released: April 18, 2024
+* Released: June 20, 2024
 
 == Copyright ==
 
@@ -51,4 +51,3 @@ xmark-circle.svg
 
 Source: https://heroicons.com/
 License: MIT https://opensource.org/license/mit
-

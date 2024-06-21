@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post meta
- * Slug: henry-block/hidden-post-meta
+ * Slug: henryblock/hidden-post-meta
  * Inserter: no
  */
 ?>
@@ -17,12 +17,12 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:paragraph {"fontSize":"small","textColor":"contrast-2"} -->
-		<p class="has-small-font-size has-contrast-2-color has-text-color"><?php echo esc_html_x( 'by', 'Prefix for the post author block: By author name', 'henry-block' ); ?></p>
+		<p class="has-small-font-size has-contrast-2-color has-text-color"><?php echo esc_html_x( 'by', 'Prefix for the post author block: By author name', 'henryblock' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:post-author-name {"isLink":true} /-->
 
-		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'in ', 'Prefix for the post category block: in category name', 'henry-block' ); ?>"} /-->
+		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'in ', 'Prefix for the post category block: in category name', 'henryblock' ); ?>"} /-->
 
 	</div>
 	<!-- /wp:group -->
