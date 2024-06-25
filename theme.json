@@ -6,27 +6,6 @@
 				"page"
 			],
 			"title": "Page No Title"
-		},
-		{
-			"name": "page-with-sidebar",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page With Sidebar"
-		},
-		{
-			"name": "page-wide",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page with wide Image"
-		},
-		{
-			"name": "single-with-sidebar",
-			"postTypes": [
-				"post"
-			],
-			"title": "Single with Sidebar"
 		}
 	],
 	"settings": {
@@ -854,7 +833,7 @@
 					"radius": "4px"
 				},
 				"color": {
-					"gradient": "var(--wp--preset--gradient--gradient-1)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
