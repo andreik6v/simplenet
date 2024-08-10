@@ -261,18 +261,18 @@
         },
         {
           "fluid": {
-            "max": "2.75rem",
-            "min": "1.75rem"
+            "max": "2.25rem",
+            "min": "1.875rem"
           },
-          "size": "2.75rem",
+          "size": "2.25rem",
           "slug": "x-large"
         },
         {
           "fluid": {
-            "max": "3.5rem",
-            "min": "2.425rem"
+            "max": "3rem",
+            "min": "2.25rem"
           },
-          "size": "3.5rem",
+          "size": "3rem",
           "slug": "xx-large"
         }
       ],
@@ -817,14 +817,12 @@
       "h1": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xx-large)",
-          "fontWeight": "500",
           "lineHeight": "1.15"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--x-large)"
-           "fontWeight": "500"
         }
       },
       "h3": {
