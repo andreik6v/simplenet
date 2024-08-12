@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.6.1
 Requires PHP: 7.0
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,11 @@ Henry is designed to embrace the potential of block-based design, and comes with
 
 == Changelog ==
 
+
+= 1.2.1 - 8/12/24 =
+* Changed theme screenshot
+* Changed theme URI
+*
 
 = 1.2 - 7/31/24 =
 * Small fixes
