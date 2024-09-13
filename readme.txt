@@ -1,41 +1,32 @@
-=== Henry Block ===
+=== Simplenet ===
 Contributors: smlaci
 Requires at least: 6.4
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 Requires PHP: 7.0
-Stable tag: 1.2.1
+Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Henry is designed to embrace the potential of block-based design, and comes with a colorful collection of style variations and gradients.
+Simplenet is designed to embrace the potential of block-based design, and comes with a colorful collection of style variations and gradients.
 
 == Changelog ==
 
-
-= 1.2.1 - 8/12/24 =
-* Changed theme screenshot
-* Changed theme URI
-*
-
-= 1.2 - 7/31/24 =
-* Small fixes
-
-= 1.1 - 7/31/24 =
+= 0.9 - 9/31/24 =
 * Initial release
 
 == Copyright ==
 
-Henry Block WordPress Theme, (C) 2024 HenryWP.com
+Simplenet WordPress Theme, (C) 2024 Simplenet.io
 
-Henry is a derivative work of the code from the following themes:
+Simplenet is a derivative work of the code from the following themes:
 
 Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org Twenty Twenty-Four is distributed under the terms of the GNU GPL.
 Ollie Theme, (C) 2023 Mike McAlister. Ollie is distributed under the terms of the GNU GPL.
 Powder WordPress Theme, (C) 2022-2024 Brian Gardner. Powder is distributed under the terms of the GNU GPL.
 
-Henry is distributed under the terms of the GNU GPL.
+Simplenet is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

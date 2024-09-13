@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header
- * Slug: henryblock/header
+ * Slug: simplenet/header
  * Categories: header
  * Block Types: core/template-part/header
  */

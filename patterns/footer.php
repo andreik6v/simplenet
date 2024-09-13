@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer
- * Slug: henryblock/footer
+ * Slug: simplenet/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -107,7 +107,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p>Designed with <a href="https://henrywp.com" data-type="link" data-id="https://henrywp.com" target="_blank" rel="noreferrer noopener nofollow">Henry</a></p>
+<p>Designed with <a href="#" data-type="link" data-id="Simplenet" target="_blank" rel="noreferrer noopener nofollow">Simplenet</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
