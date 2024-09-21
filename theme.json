@@ -294,6 +294,15 @@
 							"src": [
 								"file:./assets/fonts/inter/InterVariable.woff2"
 							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/inter/InterVariable-Italic.woff2"
+							]
 						}
 					],
 					"fontFamily": "\"Inter\", sans-serif",
