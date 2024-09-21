@@ -40,8 +40,8 @@ function simplenet_register_block_styles()
             'secondary-button' => __('Secondary', 'simplenet'),
         ],
         'core/list' => [
-            'list-check' => __('Check Yes', 'simplenet'),
-            'list-check-no' => __('Check No', 'simplenet'),
+            'list-check' => __('Check', 'simplenet'),
+            'list-check-circle' => __('Check Circle', 'simplenet'),
         ],
         'core/query-pagination-next' => [
             'wp-block-button__link' => __('Button', 'simplenet'),
@@ -50,13 +50,11 @@ function simplenet_register_block_styles()
             'wp-block-button__link' => __('Button', 'simplenet'),
         ],
         'core/code' => [
-            'dark-code' => __('Dark', 'henry-block'),
+            'dark-code' => __('Dark', 'simplenet'),
         ],
         'core/cover' => [
             'blur-image-less' => __('Blur Image Less', 'simplenet'),
-            'blur-image-more' => __('Blur Image More', 'simplenet'),
-            'gradient' => __('Gradient', 'simplenet'),
-            'rounded-cover' => __('Rounded', 'simplenet'),
+            'blur-image-more' => __('Blur Image More', 'simplenet')
         ],
         'core/column' => [
             'column-box-shadow' => __('Box Shadow', 'simplenet'),

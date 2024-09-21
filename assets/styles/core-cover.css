@@ -18,13 +18,3 @@
 .is-style-blur-image-more > .wp-block-cover__image-background {
 	filter: blur(9px);
 }
-
-.is-style-rounded-cover img {
-	border-radius: 5px;
-}
-
-.wp-block-cover.is-style-gradient .has-background-dim:not([class*=-background-color]) {
-	background-color: transparent;
-	background-image: linear-gradient(to top, rgba(10,10,10,0.6), rgba(10,10,10,1));
-	opacity: 1;
-}

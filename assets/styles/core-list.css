@@ -34,49 +34,49 @@
 
 ul.is-style-list-check,
 ul.is-style-list-check ul,
-ul.is-style-list-check-no,
-ul.is-style-list-check-no ul {
+ul.is-style-list-check-circle,
+ul.is-style-list-check-circle ul {
 	padding-left: 0;
 	list-style: none;
 }
 
 .entry-content ul.is-style-list-check,
-.entry-content ul.is-style-list-check-no {
+.entry-content ul.is-style-list-check-circle {
 	padding-inline-start: 1.5rem;
 }
 
 ul.is-style-list-check li,
-ul.is-style-list-check-no li {
+ul.is-style-list-check-circle li {
 	position: relative;
 	padding-left: 1rem;
     margin-bottom: .65em;
 }
 
 ul.is-style-list-check li:before,
-ul.is-style-list-check-no li:before {
+ul.is-style-list-check-circle li:before {
 	content: "";
-	background-color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--primary-700);
     display: block;
     position: absolute;
     mask-size: cover;
     -webkit-mask-size: cover;
-    -webkit-mask: url(../../assets/images/check-circle.svg);
-    mask: url(../../assets/images/check-circle.svg);
+    -webkit-mask: url(../../assets/images/check.svg);
+    mask: url(../../assets/images/check.svg);
     width: 24px !important;
     height: 24px !important;
     left: -15px;
     top: .09em;
 }
 
-ul.is-style-list-check-no li:before {
+ul.is-style-list-check-circle li:before {
 	content: "";
-	background-color: var(--wp--preset--color--accent);
+	background-color: var(--wp--preset--color--secondary-700);
     display: block;
     position: absolute;
     mask-size: cover;
     -webkit-mask-size: cover;
-    -webkit-mask: url(../../assets/images/xmark-circle.svg);
-    mask: url(../../assets/images/xmark-circle.svg);
+    -webkit-mask: url(../../assets/images/check-circle.svg);
+    mask: url(../../assets/images/check-circle.svg);
     width: 24px !important;
     height: 24px !important;
     left: -15px;

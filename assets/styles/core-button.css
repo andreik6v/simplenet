@@ -3,12 +3,12 @@
 
 .is-style-secondary-button .wp-element-button,
 .wp-block.is-style-secondary-button .wp-element-button {
-	background: var(--wp--preset--color--quaternary);
-	color: var(--wp--preset--color--primary);
+	background: var(--wp--preset--color--transparent);
+	color: var(--wp--preset--color--primary-700);
 }
 
 .is-style-secondary-button:hover .wp-element-button,
 .wp-block.is-style-secondary-button:hover .wp-element-button {
-	background: var(--wp--preset--color--quaternary);
-	color: var(--wp--preset--color--primary);
+	background: var(--wp--preset--color--transparent);
+	color: var(--wp--preset--color--primary-950);
 }
