@@ -7,7 +7,7 @@
 			"gradients": [
         {
           "gradient": "linear-gradient(135deg, #4338ca 0%, #9333ea 100%)",
-          "name": "Primary 700 to Secondary 600",
+          "name": "Primary 700 to Secondary 700",
           "slug": "gradient-1"
         },
         {
