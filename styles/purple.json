@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Purple",
-	"description":  "Purple-based palette with four shades and two accents",
+	"description":  "Purple-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

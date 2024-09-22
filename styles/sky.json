@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Sky",
-	"description":  "Sky-based palette with four shades and two accents",
+	"description":  "Sky-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

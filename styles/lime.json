@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Lime",
-	"description":  "Lime-based palette with four shades and two accents",
+	"description":  "Lime-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "Blue",
-  "description": "Blue-based palette with four shades and two accents",
+  "description": "Blue-based palette",
   "settings": {
     "color": {
       "gradients": [

@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Rose",
-	"description":  "Rose-based palette with four shades and two accents and two accents",
+	"description":  "Rose-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

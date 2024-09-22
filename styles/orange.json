@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Orange",
-	"description":  "Orange-based palette with four shades and two accents",
+	"description":  "Orange-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

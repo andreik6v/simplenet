@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Red",
-	"description":  "Red-based palette with four shades and two accents",
+	"description":  "Red-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

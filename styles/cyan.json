@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Cyan",
-	"description":  "Cyan-based palette with four shades and two accents",
+	"description":  "Cyan-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

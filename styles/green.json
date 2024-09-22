@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Green",
-	"description":  "Green-based palette with four shades and two accents",
+	"description":  "Green-based palette",
 	"settings": {
 		"color": {
 			"gradients": [

@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Fuchsia",
-	"description":  "Fuchsia-based palette with four shades and two accents",
+	"description":  "Fuchsia-based palette",
 	"settings": {
 		"color": {
 			"gradients": [
