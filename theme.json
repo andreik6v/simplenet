@@ -128,11 +128,6 @@
           "color": "#e8f1ff"
         },
         {
-          "name": "Primary 25",
-          "slug": "primary-25",
-          "color": "#f3f8ff"
-        },
-        {
           "name": "Secondary 950",
           "slug": "secondary-950",
           "color": "#3b0764"
@@ -186,11 +181,6 @@
           "name": "Secondary 50",
           "slug": "secondary-50",
           "color": "#faf5ff"
-        },
-        {
-          "name": "Secondary 25",
-          "slug": "secondary-25",
-          "color": "#fcfaff"
         },
         {
           "name": "Neutral 950",
