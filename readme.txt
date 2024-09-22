@@ -13,7 +13,7 @@ Simplenet is designed to embrace the potential of block-based design, and comes 
 
 == Changelog ==
 
-= 0.3 - 9/18/24 =
+= 0.3 - 9/22/24 =
 * Added custom gradients
 
 = 0.2 - 9/18/24 =

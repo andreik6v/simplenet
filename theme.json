@@ -253,14 +253,14 @@
           "color": "transparent"
         },
         {
-					"color": "#ffffff",
 					"name": "Base",
-					"slug": "base"
+					"slug": "base",
+					"color": "#ffffff"
 				},
 				{
-					"color": "#000000",
 					"name": "Contrast",
-					"slug": "contrast"
+					"slug": "contrast",
+					"color": "#000000"
 				}
       ]
     },
