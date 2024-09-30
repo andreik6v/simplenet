@@ -255,7 +255,7 @@
       ]
     },
     "layout": {
-      "contentSize": "720px",
+      "contentSize": "650px",
       "wideSize": "1280px"
     },
     "spacing": {
@@ -320,8 +320,8 @@
 							]
 						}
 					],
-					"fontFamily": "\"Inter\", sans-serif",
-					"name": "Inter",
+					"fontFamily": "\"InterVariable\", sans-serif",
+					"name": "InterVariable",
 					"slug": "default"
         },
         {
@@ -846,7 +846,7 @@
     },
     "color": {
       "background": "var(--wp--preset--color--base)",
-      "text": "var(--wp--preset--color--neutral-600)"
+      "text": "var(--wp--preset--color--neutral-700)"
     },
     "elements": {
       "button": {
@@ -973,8 +973,8 @@
       "fontFamily": "var(--wp--preset--font-family--default)",
       "fontSize": "var(--wp--preset--font-size--medium)",
       "fontStyle": "normal",
-      "fontWeight": "400",
-      "lineHeight": "1.6"
+      "fontWeight": "350",
+      "lineHeight": "1.68"
     }
   },
   "templateParts": [
