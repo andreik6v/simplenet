@@ -1,7 +1,7 @@
 {
 	"version": 2,
 	"title": "Purple",
-	"description":  "Purple-based palette",
+	"description":  "Purple and blue",
 	"settings": {
 		"color": {
 			"gradients": [
@@ -61,58 +61,188 @@
           "slug": "glow"
         }
       ],
-			"palette": [
-				{
-					"color": "#ffffff",
-					"name": "Base",
-					"slug": "base"
-				},
-				{
-					"color": "#0a0a0a",
-					"name": "Contrast",
-					"slug": "contrast"
-				},
-				{
-					"color": "#7e22ce",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#a855f7",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "#d8b4fe",
-					"name": "Tertiary",
-					"slug": "tertiary"
-				},
-				{
-					"color": "#f3e8ff",
-					"name": "Quaternary",
-					"slug": "quaternary"
-				},
-				{
-					"color": "#3b82f6",
-					"name": "Accent",
-					"slug": "accent"
-				},
-				{
-					"color": "#dbeafe",
-					"name": "Accent / Two",
-					"slug": "accent-2"
-				},
-				{
-					"color": "#f5f7f9",
-					"name": "Base / Two",
-					"slug": "base-2"
-				},
-				{
-					"color": "#334155",
-					"name": "Contrast / Two",
-					"slug": "contrast-2"
-				}
-			]
+      "palette": [
+        {
+          "name": "Primary 950",
+          "slug": "primary-950",
+          "color": "#1e1b4b"
+        },
+        {
+          "name": "Primary 900",
+          "slug": "primary-900",
+          "color": "#312e81"
+        },
+        {
+          "name": "Primary 800",
+          "slug": "primary-800",
+          "color": "#3730a3"
+        },
+        {
+          "name": "Primary 700",
+          "slug": "primary-700",
+          "color": "#4338ca"
+        },
+        {
+          "name": "Primary 600",
+          "slug": "primary-600",
+          "color": "#4f46e5"
+        },
+        {
+          "name": "Primary 500",
+          "slug": "primary-500",
+          "color": "#6366f1"
+        },
+        {
+          "name": "Primary 400",
+          "slug": "primary-400",
+          "color": "#818cf8"
+        },
+        {
+          "name": "Primary 300",
+          "slug": "primary-300",
+          "color": "#a5b4fc"
+        },
+        {
+          "name": "Primary 200",
+          "slug": "primary-200",
+          "color": "#c7d2fe"
+        },
+        {
+          "name": "Primary 100",
+          "slug": "primary-100",
+          "color": "#e0e7ff"
+        },
+        {
+          "name": "Primary 50",
+          "slug": "primary-50",
+          "color": "#eef2ff"
+        },
+        {
+          "name": "Secondary 950",
+          "slug": "secondary-950",
+          "color": "#172554"
+        },
+        {
+          "name": "Secondary 900",
+          "slug": "secondary-900",
+          "color": "#1e3a8a"
+        },
+        {
+          "name": "Secondary 800",
+          "slug": "secondary-800",
+          "color": "#1d4ed8"
+        },
+        {
+          "name": "Secondary 700",
+          "slug": "secondary-700",
+          "color": "#2563eb"
+        },
+        {
+          "name": "Secondary 600",
+          "slug": "secondary-600",
+          "color": "#3b82f6"
+        },
+        {
+          "name": "Secondary 500",
+          "slug": "secondary-500",
+          "color": "#60a5fa"
+        },
+        {
+          "name": "Secondary 400",
+          "slug": "secondary-400",
+          "color": "#93c5fd"
+        },
+        {
+          "name": "Secondary 300",
+          "slug": "secondary-300",
+          "color": "#bfdbfe"
+        },
+        {
+          "name": "Secondary 200",
+          "slug": "secondary-200",
+          "color": "#dbeafe"
+        },
+        {
+          "name": "Secondary 100",
+          "slug": "secondary-100",
+          "color": "#e0f2fe"
+        },
+        {
+          "name": "Secondary 50",
+          "slug": "secondary-50",
+          "color": "#f0f9ff"
+        },
+        {
+          "name": "Neutral 950",
+          "slug": "neutral-950",
+          "color": "#030712"
+        },
+        {
+          "name": "Neutral 900",
+          "slug": "neutral-900",
+          "color": "#111827"
+        },
+        {
+          "name": "Neutral 800",
+          "slug": "neutral-800",
+          "color": "#1f2937"
+        },
+        {
+          "name": "Neutral 700",
+          "slug": "neutral-700",
+          "color": "#374151"
+        },
+        {
+          "name": "Neutral 600",
+          "slug": "neutral-600",
+          "color": "#4b5563"
+        },
+        {
+          "name": "Neutral 500",
+          "slug": "neutral-500",
+          "color": "#6b7280"
+        },
+        {
+          "name": "Neutral 400",
+          "slug": "neutral-400",
+          "color": "#9ca3af"
+        },
+        {
+          "name": "Neutral 300",
+          "slug": "neutral-300",
+          "color": "#d1d5db"
+        },
+        {
+          "name": "Neutral 200",
+          "slug": "neutral-200",
+          "color": "#e5e7eb"
+        },
+        {
+          "name": "Neutral 100",
+          "slug": "neutral-100",
+          "color": "#f3f4f6"
+        },
+        {
+          "name": "Neutral 50",
+          "slug": "neutral-50",
+          "color": "#f9fafb"
+        },
+        {
+          "name": "Transparent",
+          "slug": "transparent",
+          "color": "transparent"
+        },
+        {
+          "name": "Base",
+          "slug": "base",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Contrast",
+          "slug": "contrast",
+          "color": "#000000"
+        }
+      ]
 		}
 	}
 }

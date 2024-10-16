@@ -30,7 +30,7 @@ html .is-layout-flex .wp-block-image {
 }
 
 .is-style-media-boxed {
-	background-color: var(--wp--preset--color--quaternary);
+	background-color: var(--wp--preset--color--primary-300);
 	padding: var(--wp--preset--spacing--40);
 	border-radius: 5px;
 }

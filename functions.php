@@ -1,11 +1,11 @@
 <?php
 /**
- * This file adds functions to the Henry WordPress theme.
+ * This file adds functions to the Simplenet WordPress theme.
  *
  * @package simplenet
  * @author  Andrei Chira
  * @license GNU General Public License v2 or later
- * @link    https://github.com/fasterwp/simplenet
+ * @link    https://github.com/andreik6v/simplenet
  */
 
 /**
@@ -51,10 +51,6 @@ function simplenet_register_block_styles()
         ],
         'core/code' => [
             'dark-code' => __('Dark', 'simplenet'),
-        ],
-        'core/cover' => [
-            'blur-image-less' => __('Blur Image Less', 'simplenet'),
-            'blur-image-more' => __('Blur Image More', 'simplenet')
         ],
         'core/column' => [
             'column-box-shadow' => __('Box Shadow', 'simplenet'),
