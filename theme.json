@@ -61,7 +61,7 @@
           "slug": "primary-100-secondary-100"
         },
         {
-          "gradient": "linear-gradient(to bottom, #d5e4ff 70%, #ffffff 70%)",
+          "gradient": "linear-gradient(to bottom, #85a8ff 70%, #ffffff 70%)",
           "name": "Vertical Hard 70",
           "slug": "hard-gradient"
         },
@@ -80,57 +80,57 @@
            {
              "name": "Primary 950",
              "slug": "primary-950",
-             "color": "#1e1b4b"
+             "color": "#0a0b5c"
            },
            {
              "name": "Primary 900",
              "slug": "primary-900",
-             "color": "#312e81"
+             "color": "#10169f"
            },
            {
              "name": "Primary 800",
              "slug": "primary-800",
-             "color": "#3730a3"
+             "color": "#0609cd"
            },
            {
              "name": "Primary 700",
              "slug": "primary-700",
-             "color": "#4338ca"
+             "color": "#0000ff"
            },
            {
              "name": "Primary 600",
              "slug": "primary-600",
-             "color": "#4f46e5"
+             "color": "#0c0eff"
            },
            {
              "name": "Primary 500",
              "slug": "primary-500",
-             "color": "#6366f1"
+             "color": "#2f45ff"
            },
            {
              "name": "Primary 400",
              "slug": "primary-400",
-             "color": "#818cf8"
+             "color": "#5676ff"
            },
            {
              "name": "Primary 300",
              "slug": "primary-300",
-             "color": "#a5b4fc"
+             "color": "#85a8ff"
            },
            {
              "name": "Primary 200",
              "slug": "primary-200",
-             "color": "#c7d2fe"
+             "color": "#b3ccff"
            },
            {
              "name": "Primary 100",
              "slug": "primary-100",
-             "color": "#e0e7ff"
+             "color": "#d5e4ff"
            },
            {
              "name": "Primary 50",
              "slug": "primary-50",
-             "color": "#eef2ff"
+             "color": "#e8f1ff"
            },
            {
              "name": "Secondary 950",
