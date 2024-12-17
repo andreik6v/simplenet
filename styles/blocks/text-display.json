@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "text-display",
+	"title": "Display",
+	"blockTypes": [
+		"core/heading",
+		"core/paragraph",
+		"core/navigation",
+		"core/site-tagline",
+		"core/site-title"
+	],
+	"styles": {
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--theme-6)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--theme-6)"
+				}
+			}
+		},
+		"typography": {
+			"fontSize": "clamp(2.2rem, 2.2rem + ((1vw - 0.2rem) * 1.333), 3.5rem)",
+			"lineHeight": "1.2"
+		}
+	}
+}

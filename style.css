@@ -1,10 +1,10 @@
 /*
 Theme Name: Simplenet
-Theme URI: https://github.com/fasterwp/simplenet
+Theme URI: https://github.com/simplenet-io/simplenet
 Author: Andrei Chira
 Author URI: https://simplenet.io/
-Description: The Simplenet Block Theme is designed to embrace the potential of block-based design, and comes with a colorful collection of style variations and gradients.
-Tested up to: 6.6.2
+Description: A clean, blank base to serve as a starting point to build websites.
+Tested up to: 6.7.1
 Requires PHP: 7.0
 Version: 0.9
 License: GNU General Public License v2 or later
@@ -18,4 +18,103 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  scroll-padding: var(--wp--preset--spacing--40);
+}
+
+/* Dark styles */
+
+.theme-dark body {
+    --wp--preset--color--theme-1: var(
+        --wp--preset--color--custom-theme-1-dark,
+        var(--wp--custom--color--theme-1-dark)
+    );
+    --wp--preset--color--theme-2: var(
+        --wp--preset--color--custom-theme-2-dark,
+        var(--wp--custom--color--theme-2-dark)
+    );
+    --wp--preset--color--theme-3: var(
+        --wp--preset--color--custom-theme-3-dark,
+        var(--wp--custom--color--theme-3-dark)
+    );
+    --wp--preset--color--theme-4: var(
+        --wp--preset--color--custom-theme-4-dark,
+        var(--wp--custom--color--theme-4-dark)
+    );
+    --wp--preset--color--theme-5: var(
+        --wp--preset--color--custom-theme-5-dark,
+        var(--wp--custom--color--theme-5-dark)
+    );
+    --wp--preset--color--theme-6: var(
+        --wp--preset--color--custom-theme-6-dark,
+        var(--wp--custom--color--theme-6-dark)
+    );
+}
+
+/*
+ * Link styles
+ * https://github.com/WordPress/gutenberg/issues/42319
+ */
+a {
+	text-decoration-thickness: 1px !important;
+	text-underline-offset: .1em;
+}
+
+/* Focus styles */
+:where(.wp-site-blocks *:focus) {
+	outline-width: 2px;
+	outline-style: solid;
+}
+
+/* Increase the bottom margin on submenus, so that the outline is visible. */
+.wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:not(:last-child) {
+	margin-bottom: 3px;
+}
+
+/* Increase the outline offset on the parent menu items, so that the outline does not touch the text. */
+.wp-block-navigation .wp-block-navigation-item .wp-block-navigation-item__content {
+	outline-offset: 4px;
+}
+
+/* Remove outline offset from the submenus, otherwise the outline is visible outside the submenu container. */
+.wp-block-navigation .wp-block-navigation-item ul.wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+	outline-offset: 0;
+}
+
+/*
+ * Progressive enhancement to reduce widows and orphans
+ * https://github.com/WordPress/gutenberg/issues/55190
+ */
+h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
+	text-wrap: pretty;
+}
+
+/*
+ * Change the position of the more block on the front, by making it a block level element.
+ * https://github.com/WordPress/gutenberg/issues/65934
+*/
+.more-link {
+	display: block;
+}
+
+/*
+ * Heading styles.
+ * Slight modifications to spacing around headings to help
+ * distinguish content sections within the post content only.
+ *
+ * Using !important as the blockGap value overrides it without.
+ */
+
+.wp-block-post-content p+h1:not([style*="margin-top"]),
+.wp-block-post-content p+h2:not([style*="margin-top"]),
+.wp-block-post-content p+h3:not([style*="margin-top"]),
+.wp-block-post-content p+h4:not([style*="margin-top"]),
+.wp-block-post-content span+h1:not([style*="margin-top"]),
+.wp-block-post-content span+h2:not([style*="margin-top"]),
+.wp-block-post-content span+h3:not([style*="margin-top"]),
+.wp-block-post-content span+h4:not([style*="margin-top"]) {
+	margin-top: var(--wp--preset--spacing--30) !important;
+}
+
+strong {
+    font-weight: 600;
 }

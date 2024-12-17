@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "framed",
+	"title": "Framed",
+	"blockTypes": [ "core/gallery", "core/image" ],
+	"styles": {
+		"color": {
+			"background": "color-mix(in oklch, var(--wp--preset--color--accent-1), var(--wp--preset--color--theme-1) 90%)"
+		},
+		"border": {
+			"radius": "var(--wp--preset--spacing--10)"
+		},
+		"spacing": {
+			"padding": {
+				"top": "min(var(--wp--preset--spacing--30), 6vw)",
+				"right": "min(var(--wp--preset--spacing--30), 6vw)",
+				"bottom": "min(var(--wp--preset--spacing--30), 6vw)",
+				"left": "min(var(--wp--preset--spacing--30), 6vw)"
+			}
+		}
+	}
+}

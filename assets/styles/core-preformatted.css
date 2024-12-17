@@ -1,9 +1,0 @@
-/* Preformatted
---------------------------------------------- */
-
-.wp-block-preformatted.is-style-preformatted-dark,
-.editor-styles-wrapper .wp-block-preformatted.is-style-preformatted-dark {
-	background-color: var(--wp--preset--color--contrast-2);
-	color: var(--wp--preset--color--base);
-	padding: calc(var(--wp--preset--spacing--30) + 0.75rem);
-}

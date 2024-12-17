@@ -6,109 +6,162 @@
  * Block Types: core/template-part/footer
  */
 ?>
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull"><!-- wp:separator {"align":"wide","backgroundColor":"theme-3"} -->
+<hr class="wp-block-separator alignwide has-text-color has-theme-3-color has-alpha-channel-opacity has-theme-3-background-color has-background"/>
+<!-- /wp:separator -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"backgroundColor":"primary-25","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-primary-25-background-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"30%"} -->
-<div class="wp-block-column" style="flex-basis:30%"><!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:site-title {"level":0,"fontSize":"medium"} /-->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|x-large"},"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
+<div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)"><!-- wp:column {"width":"","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
+<div class="wp-block-group" style="min-height:100%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:site-title {"level":0,"className":"is-style-default"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
 
-<!-- wp:paragraph -->
-<p>Henry is designed to embrace the potential of block-based design, and comes with a colorful collection of style variations and gradients.</p>
+<!-- wp:column {"width":"70%","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+<div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:70%"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large"}}}} -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-default","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-6"}}}},"textColor":"theme-6"} -->
+<p class="is-style-default has-theme-6-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--medium)"><strong>Features</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","iconBackgroundColorValue":"#6d28d9","className":"is-style-default","layout":{"type":"flex","justifyContent":"left"}} -->
-<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"twitter"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Subscriptions</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Payments</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Instant Checkout</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:social-link {"url":"#","service":"facebook"} /--></ul>
-<!-- /wp:social-links --></div>
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Affiliates</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Discount codes</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"20%"} -->
-<div class="wp-block-column" style="flex-basis:20%"></div>
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-6"}}}},"textColor":"theme-6"} -->
+<p class="has-theme-6-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--medium)"><strong>Integrations</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Stripe</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Square</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">CashApp</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Slack</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Zapier</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"has-medium-font-size","fontFamily":"body"} -->
-<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600">Services</h2>
-<!-- /wp:heading -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-6"}}}},"textColor":"theme-6"} -->
+<p class="has-theme-6-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--medium)"><strong>Resources</strong></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small"} -->
-<!-- wp:navigation-link {"label":"Web Design","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Frequently Asked</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":"Web Hosting","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Customer Support</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":"Site Maintenance","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Changelog</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":"Site Audit","url":"#"} /-->
-<!-- /wp:navigation --></div>
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Live Demos</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">APIs</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
+<!-- /wp:column -->
 
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"has-medium-font-size","fontFamily":"body"} -->
-<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600">Resources</h2>
-<!-- /wp:heading -->
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-6"}}}},"textColor":"theme-6"} -->
+<p class="has-theme-6-color has-text-color has-link-color" style="margin-bottom:var(--wp--preset--spacing--medium)"><strong>Company</strong></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small"} -->
-<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">About Us</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":"Knowledgebase","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Contact Us</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":"Video tutorials","url":"#"} /-->
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Investors</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":"Case Studies","url":"#"} /-->
-<!-- /wp:navigation --></div>
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Brand Assets</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Legal</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"has-medium-font-size","fontFamily":"body"} -->
-<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600">Company</h2>
-<!-- /wp:heading -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small"} -->
-<!-- wp:navigation-link {"label":"About Us","url":"#"} /-->
-
-<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
-
-<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
-
-<!-- wp:navigation-link {"label":"Terms and Conditions","url":"#"} /-->
-<!-- /wp:navigation --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:separator {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"className":"is-style-separator-dotted"} -->
-<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-separator-dotted" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"/>
+<!-- wp:separator {"align":"wide","backgroundColor":"theme-3"} -->
+<hr class="wp-block-separator alignwide has-text-color has-theme-3-color has-alpha-channel-opacity has-theme-3-background-color has-background"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group">
-    <!-- wp:paragraph -->
-		<p>&copy; <?php echo esc_html(gmdate("Y")); ?> · Your Company LLC</p>
-	<!-- /wp:paragraph -->
-</div>
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>©</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-date {"format":"Y","displayType":"modified"} /-->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Company LLC. All rights reserved.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph -->
-<p>Designed with <a href="#" data-type="link" data-id="Simplenet" target="_blank" rel="noreferrer noopener nofollow">Simplenet</a></p>
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Privacy Policy</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Terms of Service</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div>
+<!-- /wp:group --></section>
 <!-- /wp:group -->

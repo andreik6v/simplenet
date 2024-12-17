@@ -1,7 +1,7 @@
 === Simplenet ===
 Contributors: smlaci
 Requires at least: 6.4
-Tested up to: 6.6.2
+Tested up to: 6.7
 Requires PHP: 7.0
 Stable tag: 0.9
 License: GPLv2 or later
@@ -9,15 +9,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Simplenet is designed to embrace the potential of block-based design, and comes with a colorful collection of style variations and gradients.
+A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
 
-= 0.3 - 9/22/24 =
-* Added custom gradients
+= 0.3 - 12/15/24 =
+* Added footer
 
-= 0.2 - 9/18/24 =
-* Added gradient CSS for Headings
+= 0.2 - 12/11/24 =
+* Added accent colors
+* Added color styles
+* Added block styles
+* Added dark mode
 
 = 0.1 - 9/1/24 =
 * Initial release
@@ -29,9 +32,10 @@ Simplenet WordPress Theme, (C) 2024 Andrei Chira
 Simplenet is a derivative work of the code from the following themes:
 
 Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org Twenty Twenty-Four is distributed under the terms of the GNU GPL.
+Twenty Twenty-Five WordPress Theme, (C) 2024 WordPress.org and contributors. Twenty Twenty-Five is distributed under the terms of the GNU GPL.
 Ollie Theme, (C) 2023 Mike McAlister. The OllieWP theme is distributed under the terms of the GNU GPL.
 Powder WordPress Theme, (C) 2022-2024 Brian Gardner. The Powder theme is distributed under the terms of the GNU GPL.
-Blockify Theme, (C) 2024 Blockify. The Blockify theme is distributed under the terms of the GNU GPL.
+Kanso WordPress Theme, (C) 2024 Rich Tabor. The Kanso theme is distributed under the terms of the GNU GPL.
 
 Simplenet is distributed under the terms of the GNU GPL.
 
@@ -45,7 +49,9 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-=== Font ===
+This theme bundles the following third-party resources:
+
+=== Fonts ===
 
 Google Fonts
 License: SIL Open Font License, 1.1

@@ -1,142 +1,83 @@
 <?php
 /**
- * This file adds functions to the Simplenet WordPress theme.
+ * Simplenet functions and definitions.
  *
- * @package simplenet
- * @author  Andrei Chira
- * @license GNU General Public License v2 or later
- * @link    https://github.com/andreik6v/simplenet
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package Simplenet
+ * @since Simplenet 1.0
  */
 
-/**
- * Set up theme defaults and register various WordPress features.
- */
-function simplenet_setup()
-{
-    // Enqueue editor styles and fonts.
-    add_editor_style('style.css');
+if ( ! function_exists( 'simplenet_styles' ) ) :
+	/**
+	 * Enqueue main stylesheet.
+	 *
+	 * @since Simplenet 1.0
+	 *
+	 * @return void
+	 */
+	function simplenet_styles() {
 
-    // Remove core block patterns.
-    remove_theme_support('core-block-patterns');
-}
-add_action('after_setup_theme', 'simplenet_setup');
+		$theme_version  = wp_get_theme()->get( 'Version' );
+		$version_string = is_string( $theme_version ) ? $theme_version : false;
 
-/**
- * Enqueue styles.
- */
-function simplenet_enqueue_style_sheet()
-{
-	wp_enqueue_style( 'simplenet', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'simplenet' )->get( 'Version' ) );
-}
-add_action('wp_enqueue_scripts', 'simplenet_enqueue_style_sheet');
+		// Register theme stylesheet.
+		wp_register_style(
+			'simplenet-style',
+			get_template_directory_uri() . '/style.css',
+			array(),
+			$version_string
+		);
 
-/**
- * Add block style variations.
- */
-function simplenet_register_block_styles()
-{
-    $block_styles = [
-        'core/button' => [
-            'secondary-button' => __('Secondary', 'simplenet'),
-        ],
-        'core/list' => [
-            'list-check' => __('Check', 'simplenet'),
-            'list-check-circle' => __('Check Circle', 'simplenet'),
-        ],
-        'core/query-pagination-next' => [
-            'wp-block-button__link' => __('Button', 'simplenet'),
-        ],
-        'core/query-pagination-previous' => [
-            'wp-block-button__link' => __('Button', 'simplenet'),
-        ],
-        'core/code' => [
-            'dark-code' => __('Dark', 'simplenet'),
-        ],
-        'core/column' => [
-            'column-box-shadow' => __('Box Shadow', 'simplenet'),
-        ],
-        'core/columns' => [
-            'column-reverse' => __('Reverse', 'simplenet'),
-        ],
-        'core/group' => [
-            'column-box-shadow' => __('Box Shadow', 'simplenet'),
-        ],
-        'core/separator' => [
-            'separator-dotted' => __('Dotted', 'simplenet'),
-        ],
-        'core/image' => [
-            'rounded-full' => __('Rounded Full', 'simplenet'),
-            'media-boxed' => __('Boxed', 'simplenet'),
-        ],
-        'core/preformatted' => [
-            'preformatted-dark' => __('Dark Style', 'simplenet'),
-        ],
-        'core/post-terms' => [
-            'term-button' => __('Button Style', 'simplenet'),
-        ],
-        'core/video' => [
-            'media-boxed' => __('Boxed', 'simplenet'),
-        ],
-    ];
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'simplenet-style' );
+	}
 
-    foreach ($block_styles as $block => $styles) {
-        foreach ($styles as $style_name => $style_label) {
-            register_block_style($block, [
-                'name' => $style_name,
-                'label' => $style_label,
-            ]);
-        }
-    }
-}
-add_action('init', 'simplenet_register_block_styles');
+endif;
 
-/**
- * Load custom block styles only when the block is used.
- */
-function simplenet_enqueue_custom_block_styles()
-{
-    // Scan our styles folder to locate block styles.
-    $files = glob(get_template_directory() . '/assets/styles/*.css');
+add_action( 'wp_enqueue_scripts', 'simplenet_styles' );
 
-    foreach ($files as $file) {
-        // Get the filename and core block name.
-        $filename = basename($file, '.css');
-        $block_name = str_replace('core-', 'core/', $filename);
+if ( ! function_exists( 'simplenet_editor_styles' ) ) :
+	/**
+	 * Enqueue style.css into the editor.
+	 *
+	 * @since Simplenet 1.0
+	 *
+	 * @return void
+	 */
+	function simplenet_editor_styles() {
 
-        wp_enqueue_block_style($block_name, [
-            'handle' => "simplenet-{$filename}",
-            'src' => get_theme_file_uri("assets/styles/{$filename}.css"),
-            'path' => get_theme_file_path("assets/styles/{$filename}.css"),
+		// Enqueue theme stylesheet there are custom styles.
+		add_editor_style( 'style.css' );
+	}
+
+endif;
+
+add_action( 'admin_init', 'simplenet_editor_styles' );
+
+// Registers custom block styles.
+if (!function_exists("simplenet_block_styles")):
+    /**
+     * Registers custom block styles.
+     *
+     * @since Simplenet 1.0
+     *
+     * @return void
+     */
+    function simplenet_block_styles()
+    {
+        register_block_style("core/list", [
+            "name" => "checkmark-list",
+            "label" => __("Checkmark", "simplenet"),
+            "inline_style" => '
+				ul.is-style-checkmark-list {
+					list-style-type: "\2713";
+				}
+
+				ul.is-style-checkmark-list li {
+					padding-inline-start: 1ch;
+				}',
         ]);
     }
-}
-add_action('init', 'simplenet_enqueue_custom_block_styles');
-
-/**
- * Register pattern categories.
- */
-function simplenet_pattern_categories()
-{
-    $block_pattern_categories = [
-        'simplenet/features' => [
-            'label' => __('Features', 'simplenet'),
-        ],
-        'simplenet/hero' => [
-            'label' => __('Hero', 'simplenet'),
-        ],
-        'simplenet/pages' => [
-            'label' => __('Pages', 'simplenet'),
-        ],
-        'simplenet/pricing' => [
-            'label' => __('Pricing', 'simplenet'),
-        ],
-        'simplenet/testimonial' => [
-            'label' => __('Testimonials', 'simplenet'),
-        ],
-    ];
-
-    foreach ($block_pattern_categories as $name => $properties) {
-        register_block_pattern_category($name, $properties);
-    }
-}
-add_action('init', 'simplenet_pattern_categories', 9);
+endif;
+add_action("init", "simplenet_block_styles");

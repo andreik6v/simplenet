@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "title": "Cyan",
+  "description": "Cyan",
+  "settings": {
+    "color": {
+			"palette": [
+        {
+            "name": "Accent 1",
+            "slug": "accent-1",
+            "color": "oklch(60.89% 0.1109 221.72)"
+          },
+          {
+            "color": "hsl(0 0% 100%)",
+            "name": "Theme 1",
+            "slug": "theme-1"
+          },
+          {
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 4%)",
+            "name": "Theme 2",
+            "slug": "theme-2"
+          },
+          {
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 10%)",
+            "name": "Theme 3",
+            "slug": "theme-3"
+          },
+          {
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 20%)",
+            "name": "Theme 4",
+            "slug": "theme-4"
+          },
+          {
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 68%)",
+            "name": "Theme 5",
+            "slug": "theme-5"
+          },
+          {
+            "color": "hsl(0 0% 5%)",
+            "name": "Theme 6",
+            "slug": "theme-6"
+          }
+      ]
+		}
+  }
+}
