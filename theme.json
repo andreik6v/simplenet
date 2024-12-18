@@ -737,12 +737,14 @@
       },
       "h1": {
         "typography": {
-          "fontSize": "var:preset|font-size|xx-large"
+          "fontSize": "var:preset|font-size|xx-large",
+          "lineHeight": "1.2"
         }
       },
       "h2": {
         "typography": {
-          "fontSize": "var:preset|font-size|x-large"
+          "fontSize": "var:preset|font-size|x-large",
+           "lineHeight": "1.2"
         }
       },
       "h3": {
@@ -778,8 +780,7 @@
         },
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--default)",
-          "fontWeight": "500",
-          "lineHeight": "1.2"
+          "fontWeight": "500"
         }
       },
       "link": {
