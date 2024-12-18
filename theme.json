@@ -26,32 +26,32 @@
             "color": "oklch(51.06% 0.2301 276.97)"
           },
           {
-            "color": "hsl(0 0% 100%)",
+            "color": "oklch(100% 0 0)",
             "name": "Theme 1",
             "slug": "theme-1"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 4%)",
+            "color": "oklch(96.83% 0.0069 247.9)",
             "name": "Theme 2",
             "slug": "theme-2"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 10%)",
+            "color": "oklch(86.9% 0.0198 252.89)",
             "name": "Theme 3",
             "slug": "theme-3"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 20%)",
+            "color": "oklch(55.44% 0.0407 257.42)",
             "name": "Theme 4",
             "slug": "theme-4"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 68%)",
+            "color": "oklch(37.17% 0.0392 257.29)",
             "name": "Theme 5",
             "slug": "theme-5"
           },
           {
-            "color": "hsl(0, 0%, 5%)",
+            "color": "oklch(12.88% 0.0406 264.7)",
             "name": "Theme 6",
             "slug": "theme-6"
           }
