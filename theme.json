@@ -21,9 +21,10 @@
       "link": true,
       "palette": [
         {
+            "color": "oklch(51.06% 0.2301 276.97)",
             "name": "Accent 1",
-            "slug": "accent-1",
-            "color": "oklch(51.06% 0.2301 276.97)"
+            "slug": "accent-1"
+
           },
           {
             "color": "oklch(100% 0 0)",
@@ -86,7 +87,7 @@
         },
         {
           "name": "2",
-          "size": "min(1.5rem, 2vw)",
+          "size": "clamp(1.5rem, 2vw, 2rem)",
           "slug": "20"
         },
         {
@@ -687,7 +688,7 @@
           },
           "color": {
             "background": "color-mix(in oklch, var(--wp--preset--color--accent-1), var(--wp--preset--color--theme-6) 10%)",
-            "text": "hsl(0 0% 100%)"
+            "text": "oklch(100% 0 0)"
           },
           "outline": {
             "color": "color-mix(in oklch, var(--wp--preset--color--accent-1), var(--wp--preset--color--theme-6) 10%)",
@@ -701,7 +702,7 @@
           "color": {
             "background": "color-mix(in oklch, var(--wp--preset--color--accent-1), var(--wp--preset--color--theme-6) 10%)",
             "gradient": "none",
-            "text": "hsl(0 0% 100%)"
+            "text": "oklch(100% 0 0)"
           }
         },
         "border": {
@@ -710,7 +711,7 @@
         },
         "color": {
           "background": "var:preset|color|accent-1",
-          "text": "hsl(0 0% 100%)"
+          "text": "oklch(100% 0 0)"
         },
         "spacing": {
           "padding": {
