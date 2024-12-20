@@ -27,32 +27,32 @@
 
           },
           {
-            "color": "oklch(100% 0 0)",
+            "color": "hsl(0 0% 100%)",
             "name": "Theme 1",
             "slug": "theme-1"
           },
           {
-            "color": "oklch(96.83% 0.0069 247.9)",
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1) 96%, var(--wp--preset--color--theme-6) 4%)",
             "name": "Theme 2",
             "slug": "theme-2"
           },
           {
-            "color": "oklch(86.9% 0.0198 252.89)",
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1) 90%, var(--wp--preset--color--theme-6) 10%)",
             "name": "Theme 3",
             "slug": "theme-3"
           },
           {
-            "color": "oklch(55.44% 0.0407 257.42)",
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1) 80%, var(--wp--preset--color--theme-6) 20%)",
             "name": "Theme 4",
             "slug": "theme-4"
           },
           {
-            "color": "oklch(37.17% 0.0392 257.29)",
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1) 32%, var(--wp--preset--color--theme-6) 68%)",
             "name": "Theme 5",
             "slug": "theme-5"
           },
           {
-            "color": "oklch(12.88% 0.0406 264.7)",
+            "color": "hsl(0 0% 5%)",
             "name": "Theme 6",
             "slug": "theme-6"
           }
@@ -87,7 +87,7 @@
         },
         {
           "name": "2",
-          "size": "clamp(1.5rem, 2vw, 2rem)",
+          "size": "1.5rem",
           "slug": "20"
         },
         {
@@ -151,36 +151,36 @@
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "0.9rem",
+					"size": "0.875rem",
 					"slug": "small"
 				},
 				{
 					"fluid": false,
 					"name": "Medium",
-					"size": "1.05rem",
+					"size": "1rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "1.25rem",
+						"min": "1.125rem",
 						"max": "1.5rem"
 					},
 					"name": "Large",
-					"size": "1.5rem",
+					"size": "1.25rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"min": "1.875rem",
-						"max": "2.25rem"
+						"min": "1.5rem",
+						"max": "1.75rem"
 					},
 					"name": "Extra Large",
-					"size": "2.25rem",
+					"size": "1.75rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"min": "2.375rem",
+						"min": "2.25rem",
 						"max": "2.5rem"
 					},
 					"name": "Extra Extra Large",
