@@ -119,3 +119,25 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 strong {
     font-weight: 600;
 }
+
+/* Column
+--------------------------------------------- */
+
+.is-style-column-box-shadow {
+	box-shadow: 0px 8px 40px -20px rgb(21 14 41 / 12%);
+	transition: .4s ease;
+}
+
+.is-style-column-box-shadow:hover {
+	box-shadow: 0px 12px 60px -20px rgb(21 14 41 / 16%);
+}
+
+/* Helper class to swap order on mobile */
+@media (max-width: 781px) {
+	.ollie-swap-order {
+		flex-direction: column-reverse;
+	}
+	.ollie-row-reverse {
+		flex-direction: row-reverse;
+	}
+}
