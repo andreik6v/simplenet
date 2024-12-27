@@ -16,7 +16,7 @@
             "slug": "theme-1"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 4%)",
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 2%)",
             "name": "Theme 2",
             "slug": "theme-2"
           },
@@ -31,12 +31,12 @@
             "slug": "theme-4"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 68%)",
+            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 80%)",
             "name": "Theme 5",
             "slug": "theme-5"
           },
           {
-            "color": "hsl(0 0% 5%)",
+            "color": "hsl(0 0% 4%)",
             "name": "Theme 6",
             "slug": "theme-6"
           }
