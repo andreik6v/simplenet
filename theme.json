@@ -180,7 +180,7 @@
 				},
 				{
 					"fluid": {
-						"min": "2.25rem",
+						"min": "1.75rem",
 						"max": "2.375rem"
 					},
 					"name": "Extra Extra Large",
