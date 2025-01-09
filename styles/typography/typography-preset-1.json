@@ -35,5 +35,17 @@
         }
 			]
 		}
-	}
+	},
+"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|albert-sans"
+		},
+		"elements": {
+			"heading": {
+					"typography": {
+						"fontFamily": "var:preset|font-family|albert-sans"
+					}
+				}
+		}
+}
 }

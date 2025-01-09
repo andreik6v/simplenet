@@ -2,13 +2,13 @@
 	"version": 2,
 	"title": "Yellow",
 	"description":  "Yellow",
-	"settings": {
- "color": {
-"palette": [
-        {
+  "settings": {
+    "color": {
+      "palette": [
+          {
             "name": "Accent 1",
             "slug": "accent-1",
-            "color": "oklch(86.06% 0.1731 91.94)"
+            "color": "oklch(79.52% 0.1617 86.05)"
           },
           {
             "color": "hsl(0 0% 100%)",
@@ -41,6 +41,6 @@
             "slug": "theme-6"
           }
       ]
-}
+    }
 	}
 }

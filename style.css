@@ -48,6 +48,10 @@ html {
         --wp--preset--color--custom-theme-6-dark,
         var(--wp--custom--color--theme-6-dark)
     );
+    --wp--preset--color--accent-1: var(
+        --wp--preset--color--custom-accent-1-dark,
+        var(--wp--custom--color--accent-1-dark)
+    );
 }
 
 /*
