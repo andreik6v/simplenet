@@ -13,17 +13,35 @@ A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
 
-= 0.4 - 12/15/24 =
+= 0.9.2 - 01/10/25 =
+* fixed logo on dark mode
+
+= 0.9.1 - 01/09/25 =
+* fixed accent color on dark mode
+
+= 0.9 - 01/08/25 =
+* Added typography styles
+
+= 0.8 - 01/07/25 =
+* Added screenshot
+
+= 0.7 - 01/05/25 =
+* Added dark mode
+
+= 0.6 - 01/03/25 =
+* Added color styles
+
+= 0.5 - 12/25/24 =
+* Added block styles
+
+= 0.4 - 12/17/24 =
 * Fixed color issues
 
 = 0.3 - 12/15/24 =
-* Added footer
+* Added footer and header
 
 = 0.2 - 12/11/24 =
 * Added accent colors
-* Added color styles
-* Added block styles
-* Added dark mode
 
 = 0.1 - 9/1/24 =
 * Initial release
