@@ -91,24 +91,9 @@ strong {
     font-weight: 600;
 }
 
-/* Column
+/* Logo on Dark Mode
 --------------------------------------------- */
 
-.is-style-column-box-shadow {
-	box-shadow: 0px 8px 40px -20px rgb(21 14 41 / 12%);
-	transition: .4s ease;
-}
-
-.is-style-column-box-shadow:hover {
-	box-shadow: 0px 12px 60px -20px rgb(21 14 41 / 16%);
-}
-
-/* Helper class to swap order on mobile */
-@media (max-width: 781px) {
-	.ollie-swap-order {
-		flex-direction: column-reverse;
-	}
-	.ollie-row-reverse {
-		flex-direction: row-reverse;
-	}
+body.is-dark-theme .wp-block-site-logo img {
+  filter: invert(0.3);
 }
