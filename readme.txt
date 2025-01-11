@@ -13,6 +13,9 @@ A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
 
+= 0.9.3 - 01/10/25 =
+* really fixed logo on dark mode
+
 = 0.9.2 - 01/10/25 =
 * fixed logo on dark mode
 
