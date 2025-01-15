@@ -60,8 +60,6 @@ Simplenet is a derivative work of the code from the following themes:
 
 Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org Twenty Twenty-Four is distributed under the terms of the GNU GPL.
 Twenty Twenty-Five WordPress Theme, (C) 2024 WordPress.org and contributors. Twenty Twenty-Five is distributed under the terms of the GNU GPL.
-Ollie Theme, (C) 2023 Mike McAlister. The OllieWP theme is distributed under the terms of the GNU GPL.
-Powder WordPress Theme, (C) 2022-2024 Brian Gardner. The Powder theme is distributed under the terms of the GNU GPL.
 Kanso WordPress Theme, (C) 2024 Rich Tabor. The Kanso theme is distributed under the terms of the GNU GPL.
 
 Simplenet is distributed under the terms of the GNU GPL.
