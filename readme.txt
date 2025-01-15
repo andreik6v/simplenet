@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.7.1
 Requires PHP: 7.0
-Stable tag: 0.9.2
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.0 - 01/15/25 =
+* fixed editor error
 
 = 0.9.3 - 01/10/25 =
 * really fixed logo on dark mode

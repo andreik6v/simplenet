@@ -737,13 +737,13 @@
       "h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "lineHeight": "1.2"
+          "lineHeight": "1.25"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-           "lineHeight": "1.2"
+           "lineHeight": "1.425"
         }
       },
       "h3": {
