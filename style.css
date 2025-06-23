@@ -2,11 +2,11 @@
 Theme Name: Simplenet
 Theme URI: https://github.com/andreik6v/simplenet
 Author: Andrei Chira
-Author URI: https://simplenet.io/
+Author URI: https://kiravo.net/
 Description: A clean, blank base to serve as a starting point to build websites.
-Tested up to: 6.7.1
+Tested up to: 6.8
 Requires PHP: 7.0
-Version: 1.0
+Version: 1.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplenet
@@ -96,4 +96,77 @@ strong {
 
 .theme-dark .wp-block-site-logo img {
     filter: invert(0.3);
+  }
+
+  /* Fields */
+
+  label {
+	color: var(--wp--preset--color--theme-6);
+	display: inline-block;
+	font-size: var(--wp--preset--font-size--small);
+	margin-bottom: calc( var(--wp--preset--spacing--5) * 0.5);
+  }
+
+  textarea,
+  input:not([type=submit]):not([type=checkbox]) {
+	background-color: color-mix(in srgb, var(--wp--preset--color--theme-1) 98%, var(--wp--preset--color--theme-6) 2%);
+	border-color: var(--wp--preset--color--theme-4);
+	border-radius: var(--wp--preset--spacing--5);
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: none;
+	box-sizing: border-box;
+	color: var(--wp--preset--color--theme-6);
+	font-size: var(--wp--preset--font-size--small);
+	font-family: inherit;
+	line-height: 1.5;
+	min-height: 40px;
+	padding: 8px 12px;
+	width: 100%;
+  }
+
+  input::placeholder {
+	color: var(--wp--preset--color--theme-5);
+  }
+
+  input[type=submit] {
+	width: 100%;
+  }
+
+  textarea:focus-visible,
+  input:not([type=submit]):focus-visible {
+	outline: 2px solid var(--wp--preset--color--theme-3);
+	outline-offset: 2px;
+  }
+
+  /* Dark mode toggle block */
+
+  .wp-block-tabor-dark-mode-toggle__track:not(.has-background) {
+	background: var(--wp--preset--color--theme-3);
+  }
+
+  .wp-block-tabor-dark-mode-toggle__track:not(.has-background):hover {
+	background-color: var(--wp--preset--color--theme-4);
+	color: var(--wp--preset--color--theme-6);
+  }
+
+  /* Sticky header */
+
+  header:has(>.is-position-sticky) {
+	position: sticky;
+	top: calc( 0px + var( --wp-admin--admin-bar--height, 0px ) );
+	z-index: 100;
+  }
+
+  @media (max-width: 600px) {
+	header:has(>.is-position-sticky) {
+		top: 0;
+	}
+  }
+
+    /* Sticky group */
+
+  .wp-block-group.simplenet-sticky-top {
+	top: calc(100px + var(--wp-admin--admin-bar--position-offset, 0px));
+	z-index: 10;
   }

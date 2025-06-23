@@ -1,9 +1,9 @@
 === Simplenet ===
 Contributors: smlaci
 Requires at least: 6.4
-Tested up to: 6.7.1
+Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.0
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,36 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.6 - 05/27/25 =
+* changed back spacing sizes
+
+= 1.5 - 05/26/25 =
+* added back border radius on block style-2
+* changed spacing sizes
+
+= 1.4 - 05/26/25 =
+* removed border on block style-2
+
+= 1.3 - 04/18/25 =
+* smaller border radius on input fields
+* smaller padding on scroll
+* changed heading font-weight to 600
+* added Space Grotesk typography style
+* tested with WordPress 6.8
+
+= 1.2 - 03/03/25 =
+* Remove theme support for the core and featured patterns coming from the WordPress.org pattern directory
+* More vibrant neutral colors
+* Added DM Serif Text style variation
+* Bigger scroll-padding-top
+* Added a new, smaller spacing size
+
+= 1.1 - 02/18/25 =
+* added system fonts (serif and sans-serif)
+* bigger font size for the Albert Sans font variation
+* fixed form fields color in dark mode
+* added dark mode toggle block color to match theme colors
 
 = 1.0 - 01/15/25 =
 * fixed editor error

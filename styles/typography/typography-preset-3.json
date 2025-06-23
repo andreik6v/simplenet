@@ -1,34 +1,25 @@
 {
 	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Albert Sans",
-	"slug": "typography-preset-1",
+	"title": "Space Grotesk",
+	"slug": "typography-preset-3",
 	"settings": {
 		"typography": {
 			"fontFamilies": [
 			{
           "fontFace": [
             {
-              "fontFamily": "Albert Sans",
+              "fontFamily": "Space Grotesk",
               "fontStyle": "normal",
-              "fontWeight": "100 900",
+              "fontWeight": "300 700",
               "src": [
-                "file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Albert Sans",
-              "fontStretch": "normal",
-              "fontStyle": "italic",
-              "fontWeight": "100 900",
-              "src": [
-                "file:./assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.woff2"
+                "file:./assets/fonts/space-grotesk/SpaceGrotesk[wght].woff2"
               ]
             }
           ],
-          "fontFamily": "\"Albert Sans\", sans-serif",
-          "name": "Albert Sans",
-          "slug": "albert-sans"
+          "fontFamily": "\"Space Grotesk\", sans-serif",
+          "name": "Space Grotesk",
+          "slug": "space-grotesk"
         },
         {
           "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
@@ -94,22 +85,22 @@
 			"fontFamily": "var:preset|font-family|system-sans-serif"
 		},
 		"elements": {
-			"heading": {
-					"typography": {
-						"fontFamily": "var:preset|font-family|albert-sans",
-						"fontWeight": "600"
-					}
-				},
+  "heading": {
+        "typography": {
+          "fontWeight": "500"
+        }
+      },
 				"h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "lineHeight": "1.25",
-           "letterSpacing": "-0.02em"
+          "fontFamily": "var:preset|font-family|space-grotesk",
+          "lineHeight": "1.25"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
+          "fontFamily": "var:preset|font-family|space-grotesk",
            "lineHeight": "1.25"
         }
       },

@@ -10,10 +10,7 @@
 			"text": "var(--wp--preset--color--theme-5)"
 		},
 		"border": {
-			"radius": "var(--wp--preset--spacing--10)",
-			"style": "solid",
-			"width": "1px",
-			"color": "var(--wp--preset--color--theme-3)"
+			"radius": "var(--wp--preset--spacing--5)"
 		},
 		"blocks": {
 			"core/post-title": {

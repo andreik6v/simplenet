@@ -7,6 +7,23 @@
  * @package Simplenet
  * @since Simplenet 1.0
  */
+ if ( ! function_exists( 'simplenet_setup' ) ) :
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * @since Simplenet 1.0
+	 *
+	 * @return void
+	 */
+	function simplenet_setup() {
+
+		// Remove theme support for the core and featured patterns coming from the WordPress.org pattern directory (for now).
+		remove_theme_support( 'core-block-patterns' );
+	}
+
+ endif;
+
+ add_action( 'after_setup_theme', 'simplenet_setup' );
 
 if ( ! function_exists( 'simplenet_styles' ) ) :
 	/**

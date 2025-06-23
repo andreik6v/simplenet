@@ -29,22 +29,22 @@
             "slug": "theme-1"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 2%)",
+            "color": "hsl(210, 40%, 96.1%)",
             "name": "Theme 2",
             "slug": "theme-2"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 10%)",
+            "color": "hsl(212.70000000000005, 26.8%, 83.9%)",
             "name": "Theme 3",
             "slug": "theme-3"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 20%)",
+            "color": "hsl(215.39999999999998, 16.3%, 46.9%)",
             "name": "Theme 4",
             "slug": "theme-4"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 80%)",
+            "color": "hsl(215.29999999999995, 25%, 26.7%)",
             "name": "Theme 5",
             "slug": "theme-5"
           },
@@ -78,36 +78,41 @@
         "steps": 0
       },
       "spacingSizes": [
-        {
-          "name": "1",
-          "size": "1rem",
-          "slug": "10"
-        },
-        {
-          "name": "2",
-          "size": "1.5rem",
-          "slug": "20"
-        },
-        {
-          "name": "3",
-          "size": "min(2.5rem, 3vw)",
-          "slug": "30"
-        },
-        {
-          "name": "4",
-          "size": "min(4rem, 5vw)",
-          "slug": "40"
-        },
-        {
-          "name": "5",
-          "size": "min(6.5rem, 8vw)",
-          "slug": "50"
-        },
-        {
-          "name": "6",
-          "size": "min(10.5rem, 13vw)",
-          "slug": "60"
-        }
+              {
+                  "name": "0.5",
+                  "size": "0.5rem",
+                  "slug": "5"
+              },
+              {
+                "name": "1",
+                "size": "1rem",
+                "slug": "10"
+              },
+              {
+                "name": "2",
+                "size": "1.5rem",
+                "slug": "20"
+              },
+              {
+                "name": "3",
+                "size": "min(2.5rem, 3vw)",
+                "slug": "30"
+              },
+              {
+                "name": "4",
+                "size": "min(4rem, 5vw)",
+                "slug": "40"
+              },
+              {
+                "name": "5",
+                "size": "min(6.5rem, 8vw)",
+                "slug": "50"
+              },
+              {
+                "name": "6",
+                "size": "min(10.5rem, 13vw)",
+                "slug": "60"
+              }
       ],
       "units": ["%", "px", "em", "rem", "vh", "vw"]
     },
@@ -140,7 +145,17 @@
 					"slug": "default"
         },
         {
-          "fontFamily": "monospace",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+          "name": "System Sans-serif",
+          "slug": "system-sans-serif"
+        },
+        {
+          "fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
+          "name": "System Serif",
+          "slug": "system-serif"
+        },
+        {
+          "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
           "name": "Monospace",
           "slug": "monospace"
         }
@@ -776,7 +791,7 @@
         },
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--default)",
-          "fontWeight": "500"
+          "fontWeight": "600"
         }
       },
       "link": {
