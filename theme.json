@@ -18,7 +18,7 @@
       "link": true,
       "palette": [
         {
-            "color": "oklch(51.06% 0.2301 276.97)",
+            "color": "hsl(243.41 75% 59%)",
             "name": "Accent 1",
             "slug": "accent-1"
 

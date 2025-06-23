@@ -8,7 +8,7 @@
         {
             "name": "Accent 1",
             "slug": "accent-1",
-            "color": "oklch(68.47% 0.1479 237.32)"
+            "color": "hsl(198.62 89% 48%)"
           },
           {
             "color": "hsl(0 0% 100%)",
@@ -16,22 +16,22 @@
             "slug": "theme-1"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 2%)",
+            "color": "hsl(210, 40%, 96.1%)",
             "name": "Theme 2",
             "slug": "theme-2"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 10%)",
+            "color": "hsl(212.70000000000005, 26.8%, 83.9%)",
             "name": "Theme 3",
             "slug": "theme-3"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 20%)",
+            "color": "hsl(215.39999999999998, 16.3%, 46.9%)",
             "name": "Theme 4",
             "slug": "theme-4"
           },
           {
-            "color": "color-mix(in srgb, var(--wp--preset--color--theme-1), var(--wp--preset--color--theme-6) 80%)",
+            "color": "hsl(215.29999999999995, 25%, 26.7%)",
             "name": "Theme 5",
             "slug": "theme-5"
           },
