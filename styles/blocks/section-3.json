@@ -9,7 +9,7 @@
 			"background": "var(--wp--preset--color--theme-1)"
 		},
 		"border": {
-			"radius": "var(--wp--preset--spacing--5)",
+			"radius": "var(--wp--preset--spacing--10)",
 			"style": "solid",
 			"width": "1px",
 			"color": "var(--wp--preset--color--theme-3)"

@@ -104,14 +104,14 @@ strong {
 	color: var(--wp--preset--color--theme-6);
 	display: inline-block;
 	font-size: var(--wp--preset--font-size--small);
-	margin-bottom: calc( var(--wp--preset--spacing--5) * 0.5);
+	margin-bottom: calc( var(--wp--preset--spacing--10) * 0.5);
   }
 
   textarea,
   input:not([type=submit]):not([type=checkbox]) {
 	background-color: color-mix(in srgb, var(--wp--preset--color--theme-1) 98%, var(--wp--preset--color--theme-6) 2%);
 	border-color: var(--wp--preset--color--theme-4);
-	border-radius: var(--wp--preset--spacing--5);
+	border-radius: var(--wp--preset--spacing--10);
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: none;
