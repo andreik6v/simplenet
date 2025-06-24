@@ -15,9 +15,10 @@ A clean, blank base to serve as a starting point to build websites.
 
 = 1.7 - 06/27/25 =
 * removed smaller spacing sizes
-* added sticky header fix
+* refactoring the sticky header
 * added sticky group spacing
 * changed colors from oklch to hsl because of color picker incompatibility in the editor
+* added rounded corners on featured images
 
 = 1.6 - 05/27/25 =
 * changed back spacing sizes
