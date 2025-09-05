@@ -6,7 +6,7 @@ Author URI: https://kiravo.net/
 Description: A clean, blank base to serve as a starting point to build websites.
 Tested up to: 6.8
 Requires PHP: 7.0
-Version: 1.7.1
+Version: 1.7.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplenet
@@ -110,13 +110,13 @@ strong {
   textarea,
   input:not([type=submit]):not([type=checkbox]) {
 	background-color: color-mix(in srgb, var(--wp--preset--color--theme-1) 98%, var(--wp--preset--color--theme-6) 2%);
-	border-color: var(--wp--preset--color--theme-4);
-	border-radius: var(--wp--preset--spacing--10);
+	border-color: var(--wp--preset--color--theme-3);
+	border-radius: .33rem;
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: none;
 	box-sizing: border-box;
-	color: var(--wp--preset--color--theme-6);
+	color: var(--wp--preset--color--theme-5);
 	font-size: var(--wp--preset--font-size--small);
 	font-family: inherit;
 	line-height: 1.5;
@@ -135,7 +135,7 @@ strong {
 
   textarea:focus-visible,
   input:not([type=submit]):focus-visible {
-	outline: 2px solid var(--wp--preset--color--theme-3);
+	outline: 1px solid var(--wp--preset--color--theme-3);
 	outline-offset: 2px;
   }
 
