@@ -250,22 +250,25 @@
       },
       "core/code": {
         "border": {
-          "color": "var(--wp--preset--color--theme-3)"
+          "radius": "var(--wp--preset--spacing--10)",
+          "width": "1px",
+          "style": "solid",
+          "color": "var:preset|color|theme-3"
         },
         "color": {
-          "background": "var(--wp--preset--color--theme-2)",
+          "background": "var:preset|color|theme-2",
           "text": "var:preset|color|theme-5"
         },
         "spacing": {
           "padding": {
-            "bottom": "calc(var(--wp--preset--spacing--30) + 0.75rem)",
-            "left": "calc(var(--wp--preset--spacing--30) + 0.75rem)",
-            "right": "calc(var(--wp--preset--spacing--30) + 0.75rem)",
-            "top": "calc(var(--wp--preset--spacing--30) + 0.75rem)"
+            "bottom": "calc(var(--wp--preset--spacing--10) + 0.75rem)",
+            "left": "calc(var(--wp--preset--spacing--10) + 0.75rem)",
+            "right": "calc(var(--wp--preset--spacing--10) + 0.75rem)",
+            "top": "calc(var(--wp--preset--spacing--10) + 0.75rem)"
           }
         },
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontSize": "var(--wp--preset--font-size--small)",
           "fontStyle": "normal",
           "fontWeight": "400",
           "lineHeight": "1.6"
@@ -420,7 +423,7 @@
       "core/list": {
         "spacing": {
           "padding": {
-            "left": "var:preset|spacing|10"
+            "left": "var:preset|spacing|20"
           }
         }
       },
@@ -566,7 +569,7 @@
       },
       "core/quote": {
         "color": {
-          "background": "var(--wp--preset--color--theme-2)"
+          "background": "color-mix(in srgb, var(--wp--preset--color--theme-1) 98%, var(--wp--preset--color--theme-6) 2%)"
         },
         "css": "& :where(p) {margin-block-start:0;margin-block-end:calc(var(--wp--preset--spacing--10) + 0.5rem);} & :where(:last-child) {margin-block-end:0;} &.has-text-align-right.is-style-plain, .rtl .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-left){border-width: 0 2px 0 0;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem);} &.has-text-align-left.is-style-plain, body:not(.rtl) .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-right){border-width: 0 0 0 2px;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem);}",
         "elements": {
