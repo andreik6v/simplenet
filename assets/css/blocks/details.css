@@ -1,0 +1,33 @@
+/*
+ * Stilul "Plus / Minus" pentru Blocul Details
+ * Prefix: simplenet-plus-minus
+ */
+ /* Add a custom transition when opening/closing. */
+
+ .is-style-simplenet-plus-minus summary {
+     /* Ascundem săgeata implicită */
+     list-style: none;
+ }
+.is-style-simplenet-plus-minus summary::-webkit-details-marker {
+         display: none;
+     }
+
+ /* Base `summary` element styling. */
+ .is-style-simplenet-plus-minus summary {
+	transition: all 0.5s ease-in-out;
+	box-sizing: border-box;
+	font-weight: 500;
+ }
+ .is-style-simplenet-plus-minus summary::marker {
+	content: none;
+ }
+
+ .is-style-simplenet-plus-minus summary::after {
+	content: " +";
+	float: right;
+	text-align: right;
+ }
+
+ .is-style-simplenet-plus-minus[open] summary::after {
+	content: " -"
+ }

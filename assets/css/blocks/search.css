@@ -1,0 +1,41 @@
+/* --- Stilul "Underline" pentru Blocul de Căutare --- */
+
+/* 1. Cazul în care butonul este în AFARA câmpului de căutare */
+.wp-block-search:not(.wp-block-search__button-inside).is-style-simplenet-underline .wp-block-search__input {
+    border: none; /* Elimină toate bordurile existente */
+    border-bottom: 1px solid var(--wp--preset--color--theme-3); /* Adaugă doar linia de jos */
+    /* TRUC: Previne un salt de layout prin menținerea înălțimii originale a elementului */
+    border-top: 1px solid transparent !important;
+}
+
+/* 2. Cazul în care butonul este ÎN INTERIORUL câmpului de căutare */
+.wp-block-search.wp-block-search__button-inside.is-style-simplenet-underline .wp-block-search__inside-wrapper {
+    border: none; /* Elimină bordura containerului principal */
+    border-bottom: 1px solid var(--wp--preset--color--theme-3); /* Adaugă linia de jos pe întregul container */
+    padding: 0; /* Elimină spațierea interioară a containerului */
+}
+
+
+/* --- Resetări Comune pentru Stilul "Underline" (aplicabile ambelor cazuri) --- */
+
+.wp-block-search.is-style-simplenet-underline .wp-block-search__input {
+    background: transparent; /* Face fundalul câmpului transparent */
+    color: currentcolor; /* Culoarea textului va fi moștenită de la elementul părinte */
+    padding-inline-start: 0; /* Elimină spațierea din stânga textului */
+    border-radius: 0; /* Elimină colțurile rotunjite */
+}
+
+/* Elimină conturul albastru/portocaliu care apare la focus (când dai clic în câmp) */
+.wp-block-search.is-style-simplenet-underline .wp-block-search__input:focus {
+    outline: none;
+}
+
+
+/* --- Stiluri Specifice pentru Buton (când este iconiță în interior) --- */
+
+.wp-block-search__button-inside.is-style-simplenet-underline.wp-block-search__icon-button .wp-block-search__button:not(.has-background) {
+    padding: 0; /* Elimină spațierea interioară a butonului */
+    background: transparent; /* Face fundalul butonului transparent */
+    color: currentcolor; /* Iconița preia culoarea textului înconjurător */
+    border: 0; /* Elimină orice bordură a butonului */
+}

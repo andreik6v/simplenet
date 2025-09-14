@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.7.4
+Stable tag: 1.7.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.7.5 - 09/14/25 =
+* added list block styles (checkmark, dash, arrow)
+* added search block style (underline)
+* added details block style (plus-minus)
 
 = 1.7.4 - 09/06/25 =
 * fixed lists margin

@@ -84,17 +84,65 @@ if (!function_exists("simplenet_block_styles")):
     function simplenet_block_styles()
     {
         register_block_style("core/list", [
-            "name" => "checkmark-list",
-            "label" => __("Checkmark", "simplenet"),
-            "inline_style" => '
-				ul.is-style-checkmark-list {
-					list-style-type: "\2713";
-				}
-
-				ul.is-style-checkmark-list li {
-					padding-inline-start: 1ch;
-				}',
+            "name" => "simplenet-checkmark",
+            "label" => __("Checkmark", "simplenet")
         ]);
+        register_block_style("core/list", [
+            "name" => "simplenet-dash",
+            "label" => __("Dash", "simplenet")
+        ]);
+        register_block_style("core/list", [
+            "name" => "simplenet-arrow",
+            "label" => __("Arrow", "simplenet")
+        ]);
+        register_block_style(
+            'core/details',
+            [
+                'name'  => 'simplenet-plus-minus',
+                'label' => __( 'Plus / Minus', 'simplenet' ),
+            ]
+        );
+        register_block_style(
+            'core/search',
+            [
+                'name'  => 'simplenet-underline',
+                'label' => __( 'Underline', 'simplenet' ),
+            ]
+        );
     }
 endif;
 add_action("init", "simplenet_block_styles");
+
+/**
+ * Enqueue block stylesheets.
+ */
+if ( ! function_exists( 'simplenet_block_stylesheets' ) ) :
+	/**
+	 * Enqueue custom block stylesheets
+	 *
+	 * @since Simplenet 1.0
+	 * @return void
+	 */
+	function simplenet_block_stylesheets() {
+
+		$simplenet_styled_blocks = array(
+			'core/list'                     => 'list',
+			'core/details'                  => 'details',
+			'core/search'                   => 'search',
+		);
+
+		foreach ( $simplenet_styled_blocks as $block_name_with_namespace => $block_name ) {
+			wp_enqueue_block_style(
+				$block_name_with_namespace,
+				array(
+					'handle' => 'simplenet-' . $block_name,
+					'src'    => get_template_directory_uri() . '/assets/css/blocks/' . $block_name . '.css',
+					'path'   => get_template_directory() . '/assets/css/blocks/' . $block_name . '.css',
+				)
+			);
+		}
+
+	}
+endif;
+
+add_action( 'init', 'simplenet_block_stylesheets' );

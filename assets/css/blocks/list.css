@@ -1,0 +1,58 @@
+/* --- Resetare Generală și Fundația pentru Toate Listele Personalizate --- */
+
+/* Țintește orice listă (ul) care are o clasă de stil personalizat ("simplenet") */
+ul[class*="is-style-simplenet"] {
+    list-style: none !important; /* Ascunde forțat orice marcator implicit (bulină, pătrat) */
+    padding-inline: 0 !important; /* Elimină forțat spațierea interioară implicită a listei */
+}
+
+/* Folosește :where() pentru a reseta listele imbricate (liste în liste) fără a crește specificitatea */
+ul:where(.is-style-simplenet-dash, .is-style-simplenet-checkmark, .is-style-simplenet-arrow) ul {
+    list-style: none;
+    padding-inline-start: 0; /* padding-inline-start = padding-left într-un context stânga-dreapta */
+}
+
+/* Asigură că și listele imbricate într-o listă fără marcatori sunt resetate */
+ul.is-style-simplenet-no-bullet ul {
+    list-style: none;
+}
+
+
+/* --- Stiluri Specifice pentru Marcatori (Bullets) --- */
+
+/* Stilul "Dash" (Liniuță) */
+ul.is-style-simplenet-dash li {
+    position: relative; /* Necesar pentru a poziționa marcatorul custom */
+    padding-inline-start: 1.125em; /* Face loc pentru liniuță */
+    margin-inline-start: 0;
+}
+ul.is-style-simplenet-dash li::before {
+    content: "\2013"; /* Codul pentru caracterul "–" (liniuță) */
+    position: absolute;
+    inset-inline-start: 0; /* Plasare la început (stânga); la fel ca `left: 0` */
+}
+
+/* Stilurile "Checkmark" (Bifă) și "Arrow" (Săgeată) - reguli comune */
+ul:where(.is-style-simplenet-checkmark, .is-style-simplenet-arrow) li {
+    position: relative;
+    padding-inline-start: 1.5em; /* Face loc pentru marcator */
+    margin-inline-start: 0;
+}
+
+/* Stilul "Checkmark" (Bifă) - specific */
+ul.is-style-simplenet-checkmark li::before {
+    content: "\2518"; /* Un caracter special care, rotit, seamănă cu o bifă */
+    position: absolute;
+    inset-inline-start: 0;
+    transform: rotate(45deg); /* Rotește caracterul pentru a forma o bifă */
+    font-size: 1em;
+    top: 0.2em; /* Ajustare fină pe verticală */
+    font-family: Arial, sans-serif; /* Asigură un aspect consistent al "bifei" */
+}
+
+/* Stilul "Arrow" (Săgeată) - specific */
+ul.is-style-simplenet-arrow li::before {
+    content: "\2192"; /* Codul pentru caracterul "→" (săgeată la dreapta) */
+    position: absolute;
+    inset-inline-start: 0;
+}
