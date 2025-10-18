@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.7.5
+Stable tag: 1.7.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.7.6 - 10/18/25 =
+* added animation classes (zoom-on-hover, scale-on-hover)
+* added smooth transitions to buttons with subtle shadow
+* button press animation on click
+* updated custom transition duration variable to 600ms
+* added a custom gradient
 
 = 1.7.5 - 09/14/25 =
 * added list block styles (checkmark, dash, arrow)

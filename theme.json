@@ -16,6 +16,13 @@
       "customGradient": true,
       "defaultPalette": true,
       "link": true,
+      "gradients": [
+        {
+          "slug": "gradient-cloud-kissed",
+          "gradient": "radial-gradient(at 50% 10%, hsl(210, 80%, 97%) 0px, transparent 50%), radial-gradient(at 50% 90%, hsl(190, 60%, 98%) 0px, transparent 50%)",
+          "name": "Cloud Kissed"
+        }
+      ],
       "palette": [
         {
             "color": "hsl(243.41 75% 59%)",
@@ -66,7 +73,7 @@
         "accent-1-dark": "color-mix(in srgb, var(--wp--preset--color--accent-1), var(--wp--preset--color--theme-1) 50%)"
       },
       "transition": {
-        "duration": "200ms"
+        "duration": "600ms"
       }
     },
     "layout": {
