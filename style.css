@@ -228,6 +228,14 @@ strong {
     transform: scale(1.1);
   }
 
+  .zoom-on-hover.is-style-rounded {
+    border-radius: var(--wp--preset--spacing--10);
+  }
+
+  .zoom-on-hover.is-style-rounded img {
+    border-radius: var(--wp--preset--spacing--10);
+  }
+
   /* Scale effect on hover - entire element scales */
   .scale-on-hover {
     transition: transform var(--wp--custom--transition--duration, 600ms) ease-in-out;
@@ -235,4 +243,17 @@ strong {
 
   .scale-on-hover:hover {
     transform: scale(1.05);
+  }
+
+  .is-style-framed {
+    background: linear-gradient(135deg, #ede9fe 0%, #ecfeff 100%);
+  }
+
+  .is-style-framed img {
+    box-shadow:
+      1px 2px 2px hsl(233deg 38% 85% / 0.2),
+      2px 4px 4px hsl(233deg 38% 85% / 0.2),
+      4px 8px 8px hsl(233deg 38% 85% / 0.2),
+      8px 16px 16px hsl(233deg 38% 85% / 0.2),
+      16px 32px 32px hsl(233deg 38% 85% / 0.2);
   }
