@@ -192,18 +192,6 @@ strong {
       background-color: var(--wp--preset--color--theme-2);
   }
 
-  /* Give lists some room to breathe */
-
-  .wp-block-post-content ul li,
-  .wp-block-post-content ol li {
-    margin-bottom: 0.5rem;
-  }
-
-  .wp-block-post-content ul li:last-child,
-  .wp-block-post-content ol li:last-child {
-    margin-bottom: 0;
-  }
-
   /* Buttons smooth transitions */
   .wp-element-button,
   .wp-block-button__link {
