@@ -17,7 +17,7 @@ A clean, blank base to serve as a starting point to build websites.
 * added animation classes (zoom-on-hover, scale-on-hover)
 * added smooth transitions to buttons with subtle shadow
 * button press animation on click
-* updated custom transition duration variable to 600ms
+* updated custom transition duration variable
 
 = 1.7.5 - 09/14/25 =
 * added list block styles (checkmark, dash, arrow)
