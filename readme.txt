@@ -13,11 +13,17 @@ A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
 
-= 1.7.7 - 11/01/25 =
+= 1.7.7 - 11/13/25 =
 * updated typography to Albert Sans
 * removed logo filter on dark mode
 * added Geist font style
 * added DM Sans font paired with DM Serif Text
+* added Space Mono font paired with Space Grotesk
+* added Barlow font style
+* added Haskoy font style
+* added Sora font style
+* added Satoshi font style
+
 
 = 1.7.6 - 10/25/25 =
 * added animation classes (zoom-on-hover, scale-on-hover)
