@@ -1,56 +1,33 @@
 {
 	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "DM Serif",
-	"slug": "typography-preset-2",
+	"title": "Satoshi",
+	"slug": "typography-preset-7",
 	"settings": {
 		"typography": {
 			"fontFamilies": [
 			{
           "fontFace": [
             {
-              "fontFamily": "DM Sans",
+              "fontFamily": "Satoshi",
               "fontStyle": "normal",
-              "fontWeight": "100 900",
+              "fontWeight": "300 900",
               "src": [
-                "file:./assets/fonts/dm-sans/DMSans-VariableFont_opsz,wght.ttf"
+                "file:./assets/fonts/satoshi/Satoshi-Variable.woff2"
               ]
             },
             {
-              "fontFamily": "DM Sans",
+              "fontFamily": "Satoshi",
               "fontStyle": "italic",
-              "fontWeight": "100 900",
+              "fontWeight": "300 900",
               "src": [
-                "file:./assets/fonts/dm-sans/DMSans-Italic-VariableFont_opsz,wght.ttf"
+                "file:./assets/fonts/satoshi/Satoshi-VariableItalic.woff2"
               ]
             }
           ],
-          "fontFamily": "\"DM Sans\", sans-serif",
-          "name": "DM Sans",
-          "slug": "dm-sans"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "DM Serif Text",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/dm-serif-text/DMSerifText-Regular.ttf"
-              ]
-            },
-            {
-              "fontFamily": "DM Serif Text",
-              "fontStyle": "italic",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/dm-serif-text/DMSerifText-Italic.ttf"
-              ]
-            }
-          ],
-          "fontFamily": "\"DM Serif Text\", serif",
-          "name": "DM Serif Text",
-          "slug": "dm-serif-text"
+          "fontFamily": "\"Satoshi\", sans-serif",
+          "name": "Satoshi",
+          "slug": "satoshi"
         },
         {
           "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
@@ -103,26 +80,25 @@
 	},
 "styles": {
 		"typography": {
-			"fontFamily": "var:preset|font-family|dm-sans"
+			"fontFamily": "var:preset|font-family|satoshi"
 		},
 		"elements": {
-  "heading": {
-        "typography": {
-          "fontFamily": "var:preset|font-family|dm-sans",
-          "fontWeight": "600"
-        }
-      },
+			"heading": {
+					"typography": {
+						"fontFamily": "var:preset|font-family|satoshi",
+						"fontWeight": "600"
+					}
+				},
 				"h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "fontFamily": "var:preset|font-family|dm-serif-text",
-          "lineHeight": "1.25"
+          "lineHeight": "1.25",
+           "letterSpacing": "-0.02em"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-          "fontFamily": "var:preset|font-family|dm-serif-text",
            "lineHeight": "1.25"
         }
       },

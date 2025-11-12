@@ -1,56 +1,25 @@
 {
 	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "DM Serif",
-	"slug": "typography-preset-2",
+	"title": "Haskoy",
+	"slug": "typography-preset-6",
 	"settings": {
 		"typography": {
 			"fontFamilies": [
 			{
           "fontFace": [
             {
-              "fontFamily": "DM Sans",
+              "fontFamily": "Haskoy",
               "fontStyle": "normal",
-              "fontWeight": "100 900",
+              "fontWeight": "100 800",
               "src": [
-                "file:./assets/fonts/dm-sans/DMSans-VariableFont_opsz,wght.ttf"
-              ]
-            },
-            {
-              "fontFamily": "DM Sans",
-              "fontStyle": "italic",
-              "fontWeight": "100 900",
-              "src": [
-                "file:./assets/fonts/dm-sans/DMSans-Italic-VariableFont_opsz,wght.ttf"
+                "file:./assets/fonts/haskoy/Haskoy-variable.woff2"
               ]
             }
           ],
-          "fontFamily": "\"DM Sans\", sans-serif",
-          "name": "DM Sans",
-          "slug": "dm-sans"
-        },
-        {
-          "fontFace": [
-            {
-              "fontFamily": "DM Serif Text",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/dm-serif-text/DMSerifText-Regular.ttf"
-              ]
-            },
-            {
-              "fontFamily": "DM Serif Text",
-              "fontStyle": "italic",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/dm-serif-text/DMSerifText-Italic.ttf"
-              ]
-            }
-          ],
-          "fontFamily": "\"DM Serif Text\", serif",
-          "name": "DM Serif Text",
-          "slug": "dm-serif-text"
+          "fontFamily": "\"Haskoy\", sans-serif",
+          "name": "Haskoy",
+          "slug": "haskoy"
         },
         {
           "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
@@ -103,26 +72,25 @@
 	},
 "styles": {
 		"typography": {
-			"fontFamily": "var:preset|font-family|dm-sans"
+			"fontFamily": "var:preset|font-family|haskoy"
 		},
 		"elements": {
-  "heading": {
-        "typography": {
-          "fontFamily": "var:preset|font-family|dm-sans",
-          "fontWeight": "600"
-        }
-      },
+			"heading": {
+					"typography": {
+						"fontFamily": "var:preset|font-family|haskoy",
+						"fontWeight": "600"
+					}
+				},
 				"h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "fontFamily": "var:preset|font-family|dm-serif-text",
-          "lineHeight": "1.25"
+          "lineHeight": "1.25",
+           "letterSpacing": "-0.02em"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-          "fontFamily": "var:preset|font-family|dm-serif-text",
            "lineHeight": "1.25"
         }
       },

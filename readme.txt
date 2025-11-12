@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.7.6
+Stable tag: 1.7.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.7.7 - 11/01/25 =
+* updated typography to Albert Sans
+* removed logo filter on dark mode
+* added Geist font style
+* added DM Sans font paired with DM Serif Text
 
 = 1.7.6 - 10/25/25 =
 * added animation classes (zoom-on-hover, scale-on-hover)

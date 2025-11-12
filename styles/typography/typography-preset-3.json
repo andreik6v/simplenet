@@ -22,18 +22,42 @@
           "slug": "space-grotesk"
         },
         {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
-          "name": "System Sans-serif",
-          "slug": "system-sans-serif"
-        },
-        {
-          "fontFamily": "Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
-          "name": "System Serif",
-          "slug": "system-serif"
-        },
-        {
-          "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
-          "name": "Monospace",
+          "fontFace": [
+            {
+              "fontFamily": "Space Mono",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/space-mono/SpaceMono-Regular.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Space Mono",
+              "fontStyle": "italic",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/space-mono/SpaceMono-Italic.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Space Mono",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/space-mono/SpaceMono-Bold.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Space Mono",
+              "fontStyle": "italic",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/space-mono/SpaceMono-BoldItalic.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Space Mono\", monospace",
+          "name": "Space Mono",
           "slug": "monospace"
         }
 			],
@@ -52,29 +76,29 @@
         },
         {
           "fluid": {
-            "min": "1.5rem",
-            "max": "1.75rem"
+            "min": "1.165rem",
+            "max": "1.365rem"
           },
           "name": "Large",
-          "size": "1.75rem",
+          "size": "1.365rem",
           "slug": "large"
         },
         {
 		"fluid": {
-			"min": "1.75rem",
-			"max": "2.375rem"
+			"min": "1.5rem",
+			"max": "1.75rem"
 		},
 		"name": "Extra Large",
-		"size": "2.375rem",
+		"size": "1.75rem",
 		"slug": "x-large"
 	},
 	{
 		"fluid": {
-			"min": "2.5rem",
-			"max": "3rem"
+			"min": "1.75rem",
+			"max": "2.375rem"
 		},
 		"name": "Extra Extra Large",
-		"size": "3rem",
+		"size": "2.375rem",
 		"slug": "xx-large"
 	}
 ]
@@ -82,25 +106,24 @@
 	},
 "styles": {
 		"typography": {
-			"fontFamily": "var:preset|font-family|system-sans-serif"
+			"fontFamily": "var:preset|font-family|monospace"
 		},
 		"elements": {
   "heading": {
         "typography": {
-          "fontWeight": "500"
+          "fontWeight": "500",
+          "fontFamily": "var:preset|font-family|space-grotesk"
         }
       },
 				"h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "fontFamily": "var:preset|font-family|space-grotesk",
           "lineHeight": "1.25"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-          "fontFamily": "var:preset|font-family|space-grotesk",
            "lineHeight": "1.25"
         }
       },
