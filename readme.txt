@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.7.7
+Stable tag: 1.7.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.7.8 - 12/03/25 =
+* updated typography to Inter Variable for body on typography style 8
+* removed button shadows
+
 
 = 1.7.7 - 11/13/25 =
 * updated typography to Albert Sans

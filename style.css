@@ -6,7 +6,7 @@ Author URI: https://kiravo.net/
 Description: A clean, blank base to serve as a starting point to build websites.
 Tested up to: 6.8
 Requires PHP: 7.0
-Version: 1.7.7
+Version: 1.7.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: simplenet
@@ -184,26 +184,6 @@ strong {
       padding: .15rem .3rem;
       background-color: var(--wp--preset--color--theme-2);
   }
-
-  /* Buttons smooth transitions */
-  .wp-element-button,
-  .wp-block-button__link {
-    transition: all 200ms ease-in-out;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  }
-
-  .wp-element-button:hover,
-  .wp-block-button__link:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  }
-
-  .wp-element-button:active,
-  .wp-block-button__link:active {
-    transform: translateY(1px);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  /* Animation Classes */
 
   /* Zoom effect on hover - stays in same area */
   .zoom-on-hover {

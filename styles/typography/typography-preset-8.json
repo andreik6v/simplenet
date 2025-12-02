@@ -30,6 +30,31 @@
           "slug": "sora"
         },
         {
+          "fontFace": [
+						{
+							"fontFamily": "InterVariable",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/inter/InterVariable.woff2"
+							]
+						},
+						{
+							"fontFamily": "InterVariable",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/inter/InterVariable-Italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"InterVariable\", system-ui, sans-serif",
+					"name": "InterVariable",
+					"slug": "inter"
+        },
+        {
           "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
           "name": "Monospace",
           "slug": "monospace"
@@ -80,7 +105,7 @@
 	},
 "styles": {
 		"typography": {
-			"fontFamily": "var:preset|font-family|sora"
+			"fontFamily": "var:preset|font-family|inter"
 		},
 		"elements": {
 			"heading": {
