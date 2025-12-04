@@ -1,32 +1,40 @@
 {
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Haskoy",
-	"slug": "typography-preset-6",
-	"settings": {
-		"typography": {
-			"fontFamilies": [
-			{
+  "version": 3,
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Geist",
+  "slug": "geist",
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
           "fontFace": [
             {
-              "fontFamily": "Haskoy",
+              "fontFamily": "Geist",
               "fontStyle": "normal",
-              "fontWeight": "100 800",
+              "fontWeight": "100 900",
               "src": [
-                "file:./assets/fonts/haskoy/Haskoy-variable.woff2"
+                "file:./assets/fonts/geist/Geist[wght].woff2"
+              ]
+            },
+            {
+              "fontFamily": "Geist",
+              "fontStyle": "italic",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./assets/fonts/geist/Geist-Italic[wght].woff2"
               ]
             }
           ],
-          "fontFamily": "\"Haskoy\", sans-serif",
-          "name": "Haskoy",
-          "slug": "haskoy"
+          "fontFamily": "\"Geist\", sans-serif",
+          "name": "Geist",
+          "slug": "geist"
         },
         {
           "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
           "name": "Monospace",
           "slug": "monospace"
         }
-			],
+      ],
       "fontSizes": [
         {
           "fluid": false,
@@ -50,48 +58,47 @@
           "slug": "large"
         },
         {
-		"fluid": {
-			"min": "1.5rem",
-			"max": "1.75rem"
-		},
-		"name": "Extra Large",
-		"size": "1.75rem",
-		"slug": "x-large"
-	},
-	{
-		"fluid": {
-			"min": "1.75rem",
-			"max": "2.375rem"
-		},
-		"name": "Extra Extra Large",
-		"size": "2.375rem",
-		"slug": "xx-large"
-	}
-]
-		}
-	},
-"styles": {
-		"typography": {
-			"fontFamily": "var:preset|font-family|haskoy"
-		},
-		"elements": {
-			"heading": {
-					"typography": {
-						"fontFamily": "var:preset|font-family|haskoy",
-						"fontWeight": "600"
-					}
-				},
-				"h1": {
+          "fluid": {
+            "min": "1.5rem",
+            "max": "1.75rem"
+          },
+          "name": "Extra Large",
+          "size": "1.75rem",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.375rem"
+          },
+          "name": "Extra Extra Large",
+          "size": "2.375rem",
+          "slug": "xx-large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|geist"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|geist",
+          "fontWeight": "600"
+        }
+      },
+      "h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "lineHeight": "1.25",
-           "letterSpacing": "-0.02em"
+          "lineHeight": "1.25"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-           "lineHeight": "1.25"
+          "lineHeight": "1.25"
         }
       },
       "h3": {
@@ -118,6 +125,6 @@
           "letterSpacing": "1px"
         }
       }
-		}
-}
+    }
+  }
 }

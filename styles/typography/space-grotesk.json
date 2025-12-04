@@ -1,12 +1,12 @@
 {
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Space Grotesk",
-	"slug": "typography-preset-3",
-	"settings": {
-		"typography": {
-			"fontFamilies": [
-			{
+  "version": 3,
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Space Grotesk",
+  "slug": "space-grotesk",
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
           "fontFace": [
             {
               "fontFamily": "Space Grotesk",
@@ -60,7 +60,7 @@
           "name": "Space Mono",
           "slug": "monospace"
         }
-			],
+      ],
       "fontSizes": [
         {
           "fluid": false,
@@ -84,38 +84,38 @@
           "slug": "large"
         },
         {
-		"fluid": {
-			"min": "1.5rem",
-			"max": "1.75rem"
-		},
-		"name": "Extra Large",
-		"size": "1.75rem",
-		"slug": "x-large"
-	},
-	{
-		"fluid": {
-			"min": "1.75rem",
-			"max": "2.375rem"
-		},
-		"name": "Extra Extra Large",
-		"size": "2.375rem",
-		"slug": "xx-large"
-	}
-]
-		}
-	},
-"styles": {
-		"typography": {
-			"fontFamily": "var:preset|font-family|monospace"
-		},
-		"elements": {
-  "heading": {
+          "fluid": {
+            "min": "1.5rem",
+            "max": "1.75rem"
+          },
+          "name": "Extra Large",
+          "size": "1.75rem",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.375rem"
+          },
+          "name": "Extra Extra Large",
+          "size": "2.375rem",
+          "slug": "xx-large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|monospace"
+    },
+    "elements": {
+      "heading": {
         "typography": {
           "fontWeight": "500",
           "fontFamily": "var:preset|font-family|space-grotesk"
         }
       },
-				"h1": {
+      "h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
           "lineHeight": "1.25"
@@ -124,7 +124,7 @@
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-           "lineHeight": "1.25"
+          "lineHeight": "1.25"
         }
       },
       "h3": {
@@ -151,6 +151,6 @@
           "letterSpacing": "1px"
         }
       }
-		}
-}
+    }
+  }
 }

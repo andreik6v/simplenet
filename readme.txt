@@ -1,7 +1,7 @@
 === Simplenet ===
 Contributors: smlaci
 Requires at least: 6.4
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.0
 Stable tag: 1.7.8
 License: GPLv2 or later
@@ -13,10 +13,11 @@ A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
 
-= 1.7.8 - 12/03/25 =
-* updated typography to Inter Variable for body on typography style 8
+= 1.7.8 - 12/04/25 =
+* updated typography to Inter Variable for body on Sora typography style
 * removed button shadows
-
+* added Instrument Sans typography style
+* removed typography styles for similar fonts
 
 = 1.7.7 - 11/13/25 =
 * updated typography to Albert Sans

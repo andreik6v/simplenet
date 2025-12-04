@@ -1,40 +1,42 @@
 {
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Geist",
-	"slug": "typography-preset-4",
-	"settings": {
-		"typography": {
-			"fontFamilies": [
-			{
+  "version": 3,
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Instrument Sans",
+  "slug": "instrument-sans",
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
           "fontFace": [
             {
-              "fontFamily": "Geist",
+              "fontFamily": "Instrument Sans",
               "fontStyle": "normal",
-              "fontWeight": "100 900",
+              "fontWeight": "400 700",
+              "fontStretch": "75% 100%",
               "src": [
-                "file:./assets/fonts/geist/Geist[wght].woff2"
+                "file:./assets/fonts/instrument-sans/InstrumentSans[wdth,wght].woff2"
               ]
             },
             {
-              "fontFamily": "Geist",
+              "fontFamily": "Instrument Sans",
               "fontStyle": "italic",
-              "fontWeight": "100 900",
+              "fontWeight": "400 700",
+              "fontStretch": "75% 100%",
               "src": [
-                "file:./assets/fonts/geist/Geist-Italic[wght].woff2"
+                "file:./assets/fonts/instrument-sans/InstrumentSans-Italic[wdth,wght].woff2"
               ]
             }
           ],
-          "fontFamily": "\"Geist\", sans-serif",
-          "name": "Geist",
-          "slug": "geist"
+          "fontFamily": "\"Instrument Sans\", sans-serif",
+          "name": "Instrument Sans",
+          "slug": "instrument-sans"
         },
         {
           "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
           "name": "Monospace",
           "slug": "monospace"
         }
-			],
+      ],
       "fontSizes": [
         {
           "fluid": false,
@@ -58,48 +60,47 @@
           "slug": "large"
         },
         {
-		"fluid": {
-			"min": "1.5rem",
-			"max": "1.75rem"
-		},
-		"name": "Extra Large",
-		"size": "1.75rem",
-		"slug": "x-large"
-	},
-	{
-		"fluid": {
-			"min": "1.75rem",
-			"max": "2.375rem"
-		},
-		"name": "Extra Extra Large",
-		"size": "2.375rem",
-		"slug": "xx-large"
-	}
-]
-		}
-	},
-"styles": {
-		"typography": {
-			"fontFamily": "var:preset|font-family|geist"
-		},
-		"elements": {
-			"heading": {
-					"typography": {
-						"fontFamily": "var:preset|font-family|geist",
-						"fontWeight": "600"
-					}
-				},
-				"h1": {
+          "fluid": {
+            "min": "1.5rem",
+            "max": "1.75rem"
+          },
+          "name": "Extra Large",
+          "size": "1.75rem",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.375rem"
+          },
+          "name": "Extra Extra Large",
+          "size": "2.375rem",
+          "slug": "xx-large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|instrument-sans"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|instrument-sans",
+          "fontWeight": "500"
+        }
+      },
+      "h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "lineHeight": "1.25",
-           "letterSpacing": "-0.02em"
+          "lineHeight": "1.25"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-           "lineHeight": "1.25"
+          "lineHeight": "1.25"
         }
       },
       "h3": {
@@ -126,6 +127,6 @@
           "letterSpacing": "1px"
         }
       }
-		}
-}
+    }
+  }
 }

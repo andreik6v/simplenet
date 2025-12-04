@@ -1,40 +1,41 @@
 {
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Satoshi",
-	"slug": "typography-preset-7",
-	"settings": {
-		"typography": {
-			"fontFamilies": [
-			{
+  "version": 3,
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Albert Sans",
+  "slug": "albert-sans",
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
           "fontFace": [
             {
-              "fontFamily": "Satoshi",
+              "fontFamily": "Albert Sans",
               "fontStyle": "normal",
-              "fontWeight": "300 900",
+              "fontWeight": "100 900",
               "src": [
-                "file:./assets/fonts/satoshi/Satoshi-Variable.woff2"
+                "file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2"
               ]
             },
             {
-              "fontFamily": "Satoshi",
+              "fontFamily": "Albert Sans",
+              "fontStretch": "normal",
               "fontStyle": "italic",
-              "fontWeight": "300 900",
+              "fontWeight": "100 900",
               "src": [
-                "file:./assets/fonts/satoshi/Satoshi-VariableItalic.woff2"
+                "file:./assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.woff2"
               ]
             }
           ],
-          "fontFamily": "\"Satoshi\", sans-serif",
-          "name": "Satoshi",
-          "slug": "satoshi"
+          "fontFamily": "\"Albert Sans\", sans-serif",
+          "name": "Albert Sans",
+          "slug": "albert-sans"
         },
         {
           "fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
           "name": "Monospace",
           "slug": "monospace"
         }
-			],
+      ],
       "fontSizes": [
         {
           "fluid": false,
@@ -58,48 +59,47 @@
           "slug": "large"
         },
         {
-		"fluid": {
-			"min": "1.5rem",
-			"max": "1.75rem"
-		},
-		"name": "Extra Large",
-		"size": "1.75rem",
-		"slug": "x-large"
-	},
-	{
-		"fluid": {
-			"min": "1.75rem",
-			"max": "2.375rem"
-		},
-		"name": "Extra Extra Large",
-		"size": "2.375rem",
-		"slug": "xx-large"
-	}
-]
-		}
-	},
-"styles": {
-		"typography": {
-			"fontFamily": "var:preset|font-family|satoshi"
-		},
-		"elements": {
-			"heading": {
-					"typography": {
-						"fontFamily": "var:preset|font-family|satoshi",
-						"fontWeight": "600"
-					}
-				},
-				"h1": {
+          "fluid": {
+            "min": "1.5rem",
+            "max": "1.75rem"
+          },
+          "name": "Extra Large",
+          "size": "1.75rem",
+          "slug": "x-large"
+        },
+        {
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.375rem"
+          },
+          "name": "Extra Extra Large",
+          "size": "2.375rem",
+          "slug": "xx-large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var:preset|font-family|albert-sans"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|albert-sans",
+          "fontWeight": "600"
+        }
+      },
+      "h1": {
         "typography": {
           "fontSize": "var:preset|font-size|xx-large",
-          "lineHeight": "1.25",
-           "letterSpacing": "-0.02em"
+          "lineHeight": "1.25"
         }
       },
       "h2": {
         "typography": {
           "fontSize": "var:preset|font-size|x-large",
-           "lineHeight": "1.25"
+          "lineHeight": "1.25"
         }
       },
       "h3": {
@@ -126,6 +126,6 @@
           "letterSpacing": "1px"
         }
       }
-		}
-}
+    }
+  }
 }

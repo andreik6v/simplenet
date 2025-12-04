@@ -4,7 +4,7 @@ Theme URI: https://github.com/andreik6v/simplenet
 Author: Andrei Chira
 Author URI: https://kiravo.net/
 Description: A clean, blank base to serve as a starting point to build websites.
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.0
 Version: 1.7.8
 License: GNU General Public License v2 or later
@@ -24,34 +24,20 @@ html {
 /* Dark styles */
 
 .theme-dark body {
-    --wp--preset--color--theme-1: var(
-        --wp--preset--color--custom-theme-1-dark,
-        var(--wp--custom--color--theme-1-dark)
-    );
-    --wp--preset--color--theme-2: var(
-        --wp--preset--color--custom-theme-2-dark,
-        var(--wp--custom--color--theme-2-dark)
-    );
-    --wp--preset--color--theme-3: var(
-        --wp--preset--color--custom-theme-3-dark,
-        var(--wp--custom--color--theme-3-dark)
-    );
-    --wp--preset--color--theme-4: var(
-        --wp--preset--color--custom-theme-4-dark,
-        var(--wp--custom--color--theme-4-dark)
-    );
-    --wp--preset--color--theme-5: var(
-        --wp--preset--color--custom-theme-5-dark,
-        var(--wp--custom--color--theme-5-dark)
-    );
-    --wp--preset--color--theme-6: var(
-        --wp--preset--color--custom-theme-6-dark,
-        var(--wp--custom--color--theme-6-dark)
-    );
-    --wp--preset--color--accent-1: var(
-        --wp--preset--color--custom-accent-1-dark,
-        var(--wp--custom--color--accent-1-dark)
-    );
+  --wp--preset--color--theme-1: var(--wp--preset--color--custom-theme-1-dark,
+      var(--wp--custom--color--theme-1-dark));
+  --wp--preset--color--theme-2: var(--wp--preset--color--custom-theme-2-dark,
+      var(--wp--custom--color--theme-2-dark));
+  --wp--preset--color--theme-3: var(--wp--preset--color--custom-theme-3-dark,
+      var(--wp--custom--color--theme-3-dark));
+  --wp--preset--color--theme-4: var(--wp--preset--color--custom-theme-4-dark,
+      var(--wp--custom--color--theme-4-dark));
+  --wp--preset--color--theme-5: var(--wp--preset--color--custom-theme-5-dark,
+      var(--wp--custom--color--theme-5-dark));
+  --wp--preset--color--theme-6: var(--wp--preset--color--custom-theme-6-dark,
+      var(--wp--custom--color--theme-6-dark));
+  --wp--preset--color--accent-1: var(--wp--preset--color--custom-accent-1-dark,
+      var(--wp--custom--color--accent-1-dark));
 }
 
 /*
@@ -59,174 +45,161 @@ html {
  * https://github.com/WordPress/gutenberg/issues/65934
 */
 .more-link {
-	display: block;
+  display: block;
 }
 
-.wp-block-post-content > p + h2,
-.wp-block-post-content > p + h3,
-.wp-block-post-content > p + h4,
-.wp-block-post-content > p + h5,
-.wp-block-post-content > p + h6,
-.wp-block-post-content > ul + h2,
-.wp-block-post-content > ul + h3,
-.wp-block-post-content > ul + h4,
-.wp-block-post-content > ul + h5,
-.wp-block-post-content > ul + h6,
-.wp-block-post-content > ol + h2,
-.wp-block-post-content > ol + h3,
-.wp-block-post-content > ol + h4,
-.wp-block-post-content > ol + h5,
-.wp-block-post-content > ol + h6 {
-    /* Add spacing above headings, so anchor links are not against the viewport. */
-    padding-top: var(--wp--preset--spacing--20);
+.wp-block-post-content>p+h2,
+.wp-block-post-content>p+h3,
+.wp-block-post-content>p+h4,
+.wp-block-post-content>p+h5,
+.wp-block-post-content>p+h6,
+.wp-block-post-content>ul+h2,
+.wp-block-post-content>ul+h3,
+.wp-block-post-content>ul+h4,
+.wp-block-post-content>ul+h5,
+.wp-block-post-content>ul+h6,
+.wp-block-post-content>ol+h2,
+.wp-block-post-content>ol+h3,
+.wp-block-post-content>ol+h4,
+.wp-block-post-content>ol+h5,
+.wp-block-post-content>ol+h6 {
+  /* Add spacing above headings, so anchor links are not against the viewport. */
+  padding-top: var(--wp--preset--spacing--20);
 }
 
-.wp-block-post-content > figure + h2,
-.wp-block-post-content > figure + h3 {
-    /* Add less spacing when applied after figures, to emulate the same visual spacing. */
-    padding-top: var(--wp--preset--spacing--20);
+.wp-block-post-content>figure+h2,
+.wp-block-post-content>figure+h3 {
+  /* Add less spacing when applied after figures, to emulate the same visual spacing. */
+  padding-top: var(--wp--preset--spacing--20);
 }
 
 strong {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-  /* Fields */
+/* Fields */
 
-  label {
-	color: var(--wp--preset--color--theme-6);
-	display: inline-block;
-	font-size: var(--wp--preset--font-size--small);
-	margin-bottom: calc( var(--wp--preset--spacing--10) * 0.5);
-  }
+label {
+  color: var(--wp--preset--color--theme-6);
+  display: inline-block;
+  font-size: var(--wp--preset--font-size--small);
+  margin-bottom: calc(var(--wp--preset--spacing--10) * 0.5);
+}
 
-  textarea,
-  input:not([type=submit]):not([type=checkbox]) {
-	background-color: color-mix(in srgb, var(--wp--preset--color--theme-1) 98%, var(--wp--preset--color--theme-6) 2%);
-	border-color: var(--wp--preset--color--theme-3);
-	border-radius: .33rem;
-	border-style: solid;
-	border-width: 1px;
-	box-shadow: none;
-	box-sizing: border-box;
-	color: var(--wp--preset--color--theme-5);
-	font-size: var(--wp--preset--font-size--small);
-	font-family: inherit;
-	line-height: 1.5;
-	min-height: 40px;
-	padding: 8px 12px;
-	width: 100%;
-  }
+textarea,
+input:not([type=submit]):not([type=checkbox]) {
+  background-color: color-mix(in srgb, var(--wp--preset--color--theme-1) 98%, var(--wp--preset--color--theme-6) 2%);
+  border-color: var(--wp--preset--color--theme-3);
+  border-radius: .33rem;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: var(--wp--preset--color--theme-5);
+  font-size: var(--wp--preset--font-size--small);
+  font-family: inherit;
+  line-height: 1.5;
+  min-height: 40px;
+  padding: 8px 12px;
+  width: 100%;
+}
 
-  input::placeholder {
-	color: var(--wp--preset--color--theme-5);
-  }
+input::placeholder {
+  color: var(--wp--preset--color--theme-5);
+}
 
-  input[type=submit] {
-	width: 100%;
-  }
+input[type=submit] {
+  width: 100%;
+}
 
-  textarea:focus-visible,
-  input:not([type=submit]):focus-visible {
-	outline: 1px solid var(--wp--preset--color--theme-3);
-	outline-offset: 2px;
-  }
+textarea:focus-visible,
+input:not([type=submit]):focus-visible {
+  outline: 1px solid var(--wp--preset--color--theme-3);
+  outline-offset: 2px;
+}
 
-  /* Dark mode toggle block */
+/* Dark mode toggle block */
 
-  .wp-block-tabor-dark-mode-toggle__track:not(.has-background) {
-	background: var(--wp--preset--color--theme-3);
-  }
+.wp-block-tabor-dark-mode-toggle__track:not(.has-background) {
+  background: var(--wp--preset--color--theme-3);
+}
 
-  .wp-block-tabor-dark-mode-toggle__track:not(.has-background):hover {
-	background-color: var(--wp--preset--color--theme-4);
-	color: var(--wp--preset--color--theme-6);
-  }
+.wp-block-tabor-dark-mode-toggle__track:not(.has-background):hover {
+  background-color: var(--wp--preset--color--theme-4);
+  color: var(--wp--preset--color--theme-6);
+}
 
-  /* Sticky header */
+/* Sticky header */
 
+header:has(>.is-position-sticky) {
+  position: sticky;
+  top: calc(0px + var(--wp-admin--admin-bar--height, 0px));
+  z-index: 100;
+}
+
+@media (max-width: 600px) {
   header:has(>.is-position-sticky) {
-	position: sticky;
-	top: calc( 0px + var( --wp-admin--admin-bar--height, 0px ) );
-	z-index: 100;
+    top: 0;
   }
+}
 
-  @media (max-width: 600px) {
-	header:has(>.is-position-sticky) {
-		top: 0;
-	}
-  }
+/* Sticky group */
 
-    /* Sticky group */
+.wp-block-group.simplenet-sticky-top {
+  top: calc(130px + var(--wp-admin--admin-bar--position-offset, 0px));
+  z-index: 10;
+}
 
-  .wp-block-group.simplenet-sticky-top {
-	top: calc(130px + var(--wp-admin--admin-bar--position-offset, 0px));
-	z-index: 10;
-  }
+/* Links */
 
-  /* Links */
+a:where(:not(.wp-element-button)) {
+  text-underline-offset: 2px;
+}
 
-  a:where(:not(.wp-element-button)) {
-	text-underline-offset: 2px;
-  }
+.no-underline,
+.no-underline a {
+  /* For blocks that do not properly remove underlines. */
+  text-decoration: none !important;
+}
 
-  .no-underline,
-  .no-underline a {
-	/* For blocks that do not properly remove underlines. */
-	text-decoration: none !important;
-  }
+/* Inline code style */
 
-  /* Inline code style */
+code {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  border-radius: .33rem;
+  padding: .15rem .3rem;
+  background-color: var(--wp--preset--color--theme-2);
+}
 
-  code {
-      font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
-      border-radius: .33rem;
-      padding: .15rem .3rem;
-      background-color: var(--wp--preset--color--theme-2);
-  }
+/* Zoom effect on hover - stays in same area */
+.zoom-on-hover {
+  overflow: hidden;
+}
 
-  /* Zoom effect on hover - stays in same area */
-  .zoom-on-hover {
-    overflow: hidden;
-  }
+.zoom-on-hover img {
+  transition: transform var(--wp--custom--transition--duration, 600ms) ease-in-out;
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-  .zoom-on-hover img {
-    transition: transform var(--wp--custom--transition--duration, 600ms) ease-in-out;
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+.zoom-on-hover:hover img {
+  transform: scale(1.1);
+}
 
-  .zoom-on-hover:hover img {
-    transform: scale(1.1);
-  }
+.zoom-on-hover.is-style-rounded {
+  border-radius: var(--wp--preset--spacing--10);
+}
 
-  .zoom-on-hover.is-style-rounded {
-    border-radius: var(--wp--preset--spacing--10);
-  }
+.zoom-on-hover.is-style-rounded img {
+  border-radius: var(--wp--preset--spacing--10);
+}
 
-  .zoom-on-hover.is-style-rounded img {
-    border-radius: var(--wp--preset--spacing--10);
-  }
+/* Scale effect on hover - entire element scales */
+.scale-on-hover {
+  transition: transform var(--wp--custom--transition--duration, 600ms) ease-in-out;
+}
 
-  /* Scale effect on hover - entire element scales */
-  .scale-on-hover {
-    transition: transform var(--wp--custom--transition--duration, 600ms) ease-in-out;
-  }
-
-  .scale-on-hover:hover {
-    transform: scale(1.05);
-  }
-
-  .is-style-framed {
-    background: linear-gradient(135deg, #ede9fe 0%, #ecfeff 100%);
-  }
-
-  .is-style-framed img {
-    box-shadow:
-      1px 2px 2px hsl(233deg 38% 85% / 0.2),
-      2px 4px 4px hsl(233deg 38% 85% / 0.2),
-      4px 8px 8px hsl(233deg 38% 85% / 0.2),
-      8px 16px 16px hsl(233deg 38% 85% / 0.2),
-      16px 32px 32px hsl(233deg 38% 85% / 0.2);
-  }
+.scale-on-hover:hover {
+  transform: scale(1.05);
+}

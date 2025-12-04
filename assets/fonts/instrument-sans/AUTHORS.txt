@@ -3,6 +3,5 @@
 # See the latter for an explanation.
 #
 # Names should be added to this file as:
-# Name or Organization <email address>
-
-Ertekin Erdin <mail@ertekinn.com>
+# Rodrigo Fuenzalida <fuenzarodrigo@gmail.com>
+# Jordan Egstad <jordan@egstad.com>
