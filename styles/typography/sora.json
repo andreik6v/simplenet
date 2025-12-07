@@ -111,7 +111,7 @@
       "heading": {
         "typography": {
           "fontFamily": "var:preset|font-family|sora",
-          "fontWeight": "500"
+          "fontWeight": "600"
         }
       },
       "h1": {

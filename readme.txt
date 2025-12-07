@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.9
 Requires PHP: 7.0
-Stable tag: 1.7.8
+Stable tag: 1.7.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.7.9 - 12/07/25 =
+* fixed font weight for Sora and Instrument Sans headings
 
 = 1.7.8 - 12/04/25 =
 * updated typography to Inter Variable for body on Sora typography style

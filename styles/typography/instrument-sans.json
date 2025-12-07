@@ -88,7 +88,7 @@
       "heading": {
         "typography": {
           "fontFamily": "var:preset|font-family|instrument-sans",
-          "fontWeight": "500"
+          "fontWeight": "600"
         }
       },
       "h1": {
