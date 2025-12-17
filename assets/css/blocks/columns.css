@@ -1,0 +1,5 @@
+@media (max-width: 782px) {
+    .is-style-simplenet-mobile-reverse {
+        flex-direction: column-reverse;
+    }
+}

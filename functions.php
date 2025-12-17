@@ -109,6 +109,10 @@ if (!function_exists("simplenet_block_styles")):
                 'label' => __( 'Underline', 'simplenet' ),
             ]
         );
+        register_block_style("core/columns", [
+            "name" => "simplenet-mobile-reverse",
+            "label" => __("Reverse on Mobile", "simplenet"),
+        ]);
     }
 endif;
 add_action("init", "simplenet_block_styles");
@@ -129,6 +133,7 @@ if ( ! function_exists( 'simplenet_block_stylesheets' ) ) :
 			'core/list'                     => 'list',
 			'core/details'                  => 'details',
 			'core/search'                   => 'search',
+			"core/columns"                  => "columns",
 		);
 
 		foreach ( $simplenet_styled_blocks as $block_name_with_namespace => $block_name ) {

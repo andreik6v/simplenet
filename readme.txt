@@ -13,6 +13,9 @@ A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
 
+= 1.8 - 12/17/25 =
+* added columns block style (mobile-reverse)
+
 = 1.7.9 - 12/07/25 =
 * fixed font weight for Sora and Instrument Sans headings
 
