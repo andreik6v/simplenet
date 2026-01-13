@@ -6,7 +6,7 @@
 	"blockTypes": [ "core/gallery", "core/image" ],
 	"styles": {
 		"color": {
-			"background": "color-mix(in srgb, var(--wp--preset--color--accent-1), var(--wp--preset--color--theme-1) 94%)"
+		  "gradient": "linear-gradient(135deg, #ecfeff 0%, #e0e7ff 50%, #eff6ff 100%)"
 		},
 		"border": {
 			"radius": "var(--wp--preset--spacing--10)"
