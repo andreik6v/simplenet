@@ -3,7 +3,7 @@ Contributors: smlaci
 Requires at least: 6.4
 Tested up to: 6.9
 Requires PHP: 7.0
-Stable tag: 1.7.9
+Stable tag: 1.8.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A clean, blank base to serve as a starting point to build websites.
 
 == Changelog ==
+
+= 1.8.2 - 02/21/27 =
+* added system font style
+* added gray color style
+* added zinc color style
+
+= 1.8.1 - 01/13/26 =
+* added a gradient background to the framed style
 
 = 1.8 - 12/17/25 =
 * added columns block style (mobile-reverse)

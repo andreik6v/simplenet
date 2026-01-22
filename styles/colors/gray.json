@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "title": "Gray",
+  "description": "Gray",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Accent 1",
+          "slug": "accent-1",
+          "color": "hsl(0 0% 5%)"
+        },
+        {
+          "color": "hsl(0 0% 100%)",
+          "name": "Theme 1",
+          "slug": "theme-1"
+        },
+        {
+          "color": "hsl(220, 14.97%, 95.9%)",
+          "name": "Theme 2",
+          "slug": "theme-2"
+        },
+        {
+          "color": "hsl(216, 13.12%, 84%)",
+          "name": "Theme 3",
+          "slug": "theme-3"
+        },
+        {
+          "color": "hsl(220.03, 10.26%, 46.3%)",
+          "name": "Theme 4",
+          "slug": "theme-4"
+        },
+        {
+          "color": "hsl(216.94, 21.1%, 26.81%)",
+          "name": "Theme 5",
+          "slug": "theme-5"
+        },
+        {
+          "color": "hsl(224.05, 72.24%, 4.17%)",
+          "name": "Theme 6",
+          "slug": "theme-6"
+        }
+      ]
+    }
+  }
+}
