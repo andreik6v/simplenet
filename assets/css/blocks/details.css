@@ -1,33 +1,34 @@
 /*
- * Stilul "Plus / Minus" pentru Blocul Details
+ * "Plus / Minus" style for the Details Block
  * Prefix: simplenet-plus-minus
  */
- /* Add a custom transition when opening/closing. */
-
- .is-style-simplenet-plus-minus summary {
-     /* Ascundem săgeata implicită */
-     list-style: none;
- }
+/* Force expansion if inside a flex container (like a Row block) */
+.is-style-simplenet-plus-minus {
+    flex-grow: 1;
+    width: 100%;
+}
+/* Main summary element styling */
+.is-style-simplenet-plus-minus summary {
+    display: flex;             /* Enable flexbox for symbol alignment */
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;          /* Hide default arrow */
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+/* Hide default marker in Safari and Chrome */
 .is-style-simplenet-plus-minus summary::-webkit-details-marker {
-         display: none;
-     }
-
- /* Base `summary` element styling. */
- .is-style-simplenet-plus-minus summary {
-	transition: all 0.5s ease-in-out;
-	box-sizing: border-box;
-	font-weight: 500;
- }
- .is-style-simplenet-plus-minus summary::marker {
-	content: none;
- }
-
- .is-style-simplenet-plus-minus summary::after {
-	content: " +";
-	float: right;
-	text-align: right;
- }
-
- .is-style-simplenet-plus-minus[open] summary::after {
-	content: " -"
- }
+    display: none;
+}
+/* Base styles for the Plus/Minus symbol */
+.is-style-simplenet-plus-minus summary::after {
+    content: " +";
+    margin-left: auto;         /* Push the symbol to the far right */
+    text-align: right;
+}
+/* Change to Minus when the block is open */
+.is-style-simplenet-plus-minus[open] summary::after {
+    content: " -";
+}
